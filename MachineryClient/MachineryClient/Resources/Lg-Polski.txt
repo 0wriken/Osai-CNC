@@ -1,0 +1,1299 @@
+﻿;Chinese-Polacco
+请向电动油泵加注润滑油|Dodaj olej smarowy do pompy elektrycznej
+未连接到PLC|Nie podlaczony do PLC
+正常运行|Komunikacja jest prawidlowa
+通讯错误|Blad komunikacji
+1、胶盒内实际温度；|1 、 Rzeczywista temperatura w pojemniku z klejem;
+2、涂胶设定温度；|2 、 Ustawiona temperatura;
+3、主加热板；|3 、 Glowny element grzewczy;
+4、热电偶。|4 Termopara
+目前胶盒内温度,未达到设置温度,请等到胶盒加热到设置温度后再启动涂胶电机。|Obecnie temperatura w pojemniku z klejem nie osiagnela ustawionej temperatury. Poczekaj, az pojemnik z klejem ogrzeje sie do ustawionej temperatury, zanim zaczniesz obracanie walka z klejem.
+注意根据所用胶水的熔点|Zwroc uwagę na temperaturę topnienia kleju
+当加热时间或加热温度不正常时请检测加热板、热电偶及温度控制仪是否已经损坏,如有损坏请更换。|Kiedy czas lub temperatura grzania jest nieprawidlowa, sprawdz, czy płyta grzewcza, termopara i regulator temperatury nie są uszkodzone. Jeśli jest uszkodzony, wymien go.
+左图中的2号接近开关与其正下方信号器的距离应该控制在1-2mm之间!|Odległość między przelacznikiem zblizeniowym nr 2 a nadajnikiem sygnału ponizej powinna być kontrolowana dla odległości 1-2 mm!
+左图中的1号磁性开关是否损坏,接线是否正确。|Sprawdz czy przelacznik magnetyczny nr 1 na zdjeciu z lewej strony jest uszkodzony i czy okablowanie jest prawidlowe.
+故障排除:|Rozwiazywanie problemow:
+1、先将压梁升起,取出输送带上的所有木板,调节好压梁;|1 、 Podnies belke dociskowa, zdejmij wszystkie panele z przenosnika tasmowego i wyreguluj belke dociskowa;
+2、确认设备工作气压是否达到;|2 、 Upewnij sie, ze cisnienie w układzie pneumatycznym jest wystarczajace
+3、检查控制后齐头气缸动作的气体流量是否合适;|3 、 Sprawdz przepływ powietrza tylnego cylindra tnacego;
+4、检查后齐头上部的接近开关是否正常工作;|4 、 Sprawdz przelacznik zblizeniowy w gornej czesci tylnego zespolu tnacego;
+5、检查工件间隔是否合理;|5、Spradz odleglosc miedzy dwoma kolejnymi panelami;
+6、确认完以上步骤后,按下<警报复位>按钮后,重新开工作。|6 、 Po potwierdzeniu powyzszych krokow, nacisnij przycisk resetowania alarmu i ponownie rozpocznij prace.
+设备中的急停开关:|Wylacznik zatrzymania awaryjnego, do sprawdzenia:
+1、控制面板急停开关|1 、 Wylacznik zatrzymania awaryjnego panelu
+2、压梁出料端急停开关|2 、 Wylacznik zatrzymania awaryjnego wyladunku
+3、门开关|3、Wylaczniki bezpieczenstwa drzwi kabiny
+1、气源气压显示|1  Wyswietlacz cisnienia powietrza
+2、气源气压调节手柄|2  Uchwyt do regulacji cisnienia powietrza
+3、工作气压压力开关|3 Przelacznik cisnienia roboczego
+4、气源总开关|4 Przelacznik zasilania powietrzem
+1、请检查设备供气是否正常,查看气源气压是否在0.6MPa以上,如未达到0.6MPa,请通过调节压力调节手柄,将气压调到0.6MPa;|1 、Sprawdź, czy doplyw powietrza jest prawidlowy i cisnienie powietrza przekracza 0,6 MPa. Jesli nie, wyreguluj do 0,6 MPa obracajac pokretlo regulujece cisnienie.
+2、如调节手柄后仍达不到0.6MPa,请查看供气设备工作是否正常；|2、Jesli doplyw powietrza jest mniejszy niz 0.6 MPa, sprawdz, czy sprzet doprowadzajacy powietrze dziala normalnie.
+3、当设备供气正常情况下,请查看工作气压压力开关,设定报警气压是否在0.5~0.6MPa范围内,如不是请重新设定,如在范围内请,查看此开关是否损坏。|3、Jesli doplyw powietrza do urzadzenia jest prawidlowy, sprawdz przelacznik bezpieczenstaw cisnienia powietrza i ustaw cisnienie alarmowe w zakresie 0,5 ~ 0,6 MPa. Jesli nie, zresetuj go; jesli miesci sie w zakresie, sprawdz, czy przelacznik nie jest uszk
+1、磁性开关|1、Przelacznik magnetyczny
+2、接近开关|Przelacznik zblizeniowy
+1、当上一加工序未完成,第二块工件进入加工区,为防止由于工件撞击造成设备损坏,设备会自动停机;|1 、Jesli ostatnia sekwencja przetwarzania nie jest zakonczona, drugi element wchodzi do strefy przetwarzania. Aby zapobiec uszkodzeniu sprzetu na skutek uderzenia przedmiotu obrabianego, urzadzenie zatrzyma sie automatycznie.
+2、请检查限料气缸工作是否正常;|2 、 Sprawdz, czy cylinder zatrzymania automatycznego dosuwu dziala normalnie.
+3、请查看供气是否正常:|3 、 Sprawdz, czy doplyw powietrza jest prawidlowy.
+4、查看连锁保护磁性开关是否工作正常；|4 、 Sprawdz, czy przelacznik magnetyczny zabezpieczenia blokady działa normalnie.
+5、查看气缸运动是否流畅。|5 、 Sprawdz, czy ruch cylindra automatycznego zatrzymania dosuwu jest plynny.
+6、取走工件后,按<警报复位>按钮,重新开机。|6 、 Nacisnij przycisk resetowania po usunieciu elementow roboczych i ponownie uruchom maszyne.
+1、如要正常工作请关闭调机模式；|1 、 Wylacz „Tryb testowy”, jesli wymagane jest normalne dzialanie.
+2、检查是否在调机模式下放板或拔动开始行程开关。|2.   Sprawdz, czy tryb testowy zawiera panel, ktory naciska wlacznik krancowy rozruchu
+1、检查开始行程开关及其线路是否损坏；|1 、 Sprawdz, czy wylacznik krancowy rozruchu i jego przewody nie sa uszkodzone.
+2、检查是否在调机模式下放板或拔动开始行程开关；|2.   Sprawdz, czy tryb testowy zawiera panel, ktory naciska wlacznik krancowy rozruchu
+3、关闭调机模式；|3、Wylacz „tryb debugowania”.
+4、确认完以上步骤后,按下<警报复位>按钮后,重新开始工作。|4 、 Po potwierdzeniu powyzszych krokow, nacisnij przycisk resetowania i ponownie rozpocznij prace.
+错误原因:|Przyczyny bledow
+1、在输送带运转过程中,手或其他物件碰触到送料安全行程开关,安全保护作用使输送带停止。|1 、 W trakcie pracy, jesli wylacznik bezpieczenstwa posuwu zostanie dotkniety reka lub innymi przedmiotami, zabezpieczenie zatrzyma przenosnik tasmowy.
+解决办法:|Rozwiazanie
+1、检查送料动作,注意规范操作,小心不能将手伸进压梁内。|1 、 Sprawdz, czy posuw jest wykonywany poprawnie. Zachowaj ostrozność i nie dotykaj reka belki dociskowej.
+2、排查其他使送料安全保护开关接通的原因。|2 、 Sprawdz inne przyczyny, ktore aktywuja wlacznik bezpieczenstwa posuwu
+日常维护说明|Instrukcja codziennej konserwacji
+1、每天开机前检查胶盒有无异物,并及时清理|1 、 Sprawdzaj pojemnik z klejem na zewnatrz i wewnatrz pod katem zanieczyszczen i czysc go przed codziennym uruchomieniem maszyny.
+2、每天开机前检查并清理齐头导轨灰尘,添加润滑油|2 、 Codziennie sprawdzaj i usuwaj pyl z szyn prowadzacych zespolu tnacego przed wlaczeniem maszyny oraz nasmaruj je olejem.
+3、每天开机前检查各刀具、抛光布轮、压轮、链块等易损件的磨损情况,并及时更换|3 、 Codziennie sprawdzaj zuzywajace sie czesci, takie jak noze, frezy, tarcze polerskie, gumowe rolki, podkladki naprowadzajace przed rozpoczeciem pracy i wymieniaj zuzyte części na czas.
+4、每天开机前必须对三联体排水杯放水一次并检查三联体油量,若低于1/3需添加32#抗磨液压油至2/3以上|4 、 Przed uruchomieniem maszyny sprawdz zespol filtra cisnienia powietrza, w razie potrzeby spusc wode i sprawdz miske oleju smarowego (patrz instrukcja obslugi maszyny).
+5、每天下班后必须用气枪吹干净机器上的杂屑|5  Uzywaj pistoletow pneumatycznych do usuwania pylu z maszyny tylko, jesli maszyna jest wylaczona.
+6、每月对输送带链条和链块进行清理,并在机器上每个油嘴处注入润滑油|6 、 Czysc przenosnik lancuchowy i podkladki blokowe lancucha co miesiąc i wstrzykuj olej smarowy do kazdej dyszy maszyny.
+7、禁止客户私自拆改机器,因私自拆改或未使用原厂配件造成机器的损坏由客户自行承担责任|7 Zabrania sie klientowi modyfikowac i zmieniac maszyne bez zgody producenta maszyny. Klient ponosi odpowiedzialnosc za uszkodzenie maszyny spowodowane przez nieautoryzowane modyfikacje i zmiany lub niestosowanie oryginalnych akcesoriow i czscci zamiennyc
+警告:一切维护保养工作须在断电且在胶盒冷却的状态下进行!|Ostrzeżenie: Wszystkie prace konserwacyjne nalezy wykonywać przy wylaczonym zasilaniu i zimnym pojemniku na klej!
+机器时间 时|Czas maszyny (godziny)
+机器时间 分|Czas maszyny (minuty)
+机器时间 年|Czas maszyny (rok)
+机器时间 月|Czas maszyny (miesiac)
+机器时间 日|Czas maszyny (dzien)
+机器时间 秒|Czas maszyny (sekunda)
+机器时间 星期|Czas maszyny (tydzien)
+锁机时间1 年|Czas blokady 1 (rok)
+锁机时间1 月|Czas blokady 1 (miesiac)
+锁机时间1 日|Czas blokady 1 (dzien)
+锁机时间1 时|Czas blokady 1 (godzina)
+锁机时间1 分|Czas blokady 1 (minuta)
+锁机时间2 年|Czas blokady 2 (rok)
+锁机时间2 月|Czas blokady 2 (miesiac)
+锁机时间2 日|Czas blokady 2 (dzien)
+锁机时间2 时|Czas blokady 2 (godzina)
+锁机时间2 分|Czas blokady 2 (minuta)
+锁机时间3 年|Czas blokady 3 (rok)
+锁机时间3 月|Czas blokady 3 (miesiac)
+锁机时间3 日|Czas blokady 3 (dzien)
+锁机时间3 时|Czas blokady 3 (godzina)
+锁机时间3 分|Czas blokady 3 (minuta)
+锁机时间4 年|Czas blokady 4 (rok)
+锁机时间4 月|Czas blokady 4 (miesiac)
+锁机时间4 日|Czas blokady 4 (dzien)
+锁机时间4 时|Czas blokady 4 (godzina)
+锁机时间4 分|Czas blokady 4 (minuta)
+锁机时间5 年|Czas blokady 5 (rok)
+锁机时间5 月|Czas blokady 5 (miesiac)
+锁机时间5 日|Czas blokady 5 (dzien)
+锁机时间5 时|Czas blokady 5 (godzina)
+锁机时间5 分|Czas blokady 5 (minuta)
+锁机密码1|Blokada hasla 1
+锁机密码2|Blokada hasla 2
+锁机密码3|Blokada hasla 3
+锁机密码4|Blokada hasla 4
+锁机密码5|Blokada hasla 5
+最后一块木板位置|Pozycja ostatniego panelu
+最后一块木板位置前|Przod ostatniego panelu
+最后一块木板位置后|Tyl ostatniego panelu
+运行时间 天|Czas dzialania (dzien)
+运行时间 时|Czas dzialania (godzina)
+运行时间 分|Czas dzialania (minuta)
+齐头运动次数|Czasy ruchu ciecia koncowego
+加油时间|Czas smarowania
+设定机器运行时间|Ustawienie czasu pracy maszyny
+锁机时间 天|Czas blokady maszyny (dzien)
+锁机时间 时|Czas blokady maszyny (godzina)
+锁机时间 分|Czas blokady maszyny (minuta)
+操作员密码|Haslo operatora
+木板位置|Pozycja panelu
+铣刀1退 前|Frezowanie 1 tyl przod
+铣刀1退 慢|Frezowanie 1 tyl powolne
+卡带延时|Opoznienie zablokowania tasmy
+送带长度|Dlugosc dosuwu
+清洁|Wyczysc
+清洁开|Wyczysc Otworz
+清洁关|Wyczysc Zamknij
+加热灯管开|Lampa ogrzewania otwarta
+加热灯管关|Lampa ogrzewania zamknieta
+平刮边进|Skrobanie na plasko do przodu
+平刮边退|Skrobanie na plasko do tylu
+平刮边开|Skrobanie na plasko otwarte
+平刮边关|Skrobanie na plasko zamkniete
+刮边除尘|Odsysanie pylu ze skrobania
+刮边1除尘|Odsysanie pylu ze skrobania R1
+刮边1除尘开|Odsysanie pylu ze skrobania R1 otwarte
+刮边1除尘关|Odsysanie pylu ze skrobania R1 zamkniete
+刮边2除尘|Odsysanie pylu ze skrobania R2
+刮边2除尘开|Odsysanie pylu ze skrobania R2 otwarte
+刮边2除尘关|Odsysanie pylu ze skrobania R2 zamkniete
+刮边R1夹带|Zacisk skrobania R1
+刮边R2夹带|Zacisk skrobania R2
+刮边R1夹带保护|Zabezpieczanie zacisku skrobania R1
+刮边R2夹带保护|Zacisk przycinania dolnej tasmy R2
+刮边R1上夹带|Zacisk gornej tasmy skrobania R1
+刮边R2上夹带|Zacisk gornej tasmy skrobania R2
+刮边R1下夹带|Zacisk dolnej tasmy skrobania R1
+刮边R2下夹带|Zacisk dolnej tasmy skrobania R2
+开槽除尘|Wygiecie do odciagania pylu
+开槽1除尘|Wygiecie do odciagania pylu 1
+开槽1除尘开|Wygiecie do odciagania pylu 1 otwarte
+开槽1除尘关|Wygiecie do odciagania pylu 1 zamkniete
+开槽2除尘|Wygiecie do odciagania pylu 2
+开槽2除尘开|Wygiecie do odciagania pylu 2 otwarte
+开槽2除尘关|Wygiecie do odciagania pylu 2 zamkniete
+开槽1进|Wygiecie 1 do przodu
+开槽2进|Wygiecie 2 do przodu
+开槽1退|Wygiecie 1 do tylu
+开槽2退|Wygiecie 2 do tylu
+涂胶1自动换带位置|Automatyczna zmiana pozycji kleju 1
+涂胶2自动换带位置|Automatyczna zmiana pozycji kleju 2
+涂胶速度|Predkosc kleju
+涂胶1速度|Predkosc kleju 1
+涂胶2速度|Predkosc kleju 2
+涂胶1送带速度|Predkosc podawania tasmy kleju 1
+涂胶2送带速度|Predkosc podawania tasmy kleju 2
+压梁皮带|Tasma BP
+送带轮速度|Predkosc rolki poduwajacej tasme
+涂胶1 送带轮速度|Predkosc podawania tasmy kleju 1
+涂胶2 送带轮速度|Predkosc podawania tasmy kleju 2
+送带气缸|Cylinder podawania tasmy
+涂胶1 送带气缸|Cylinder podawania tasmy kleju 1
+涂胶2 送带气缸|Cylinder podawania tasmy kleju 2
+涂胶1 厚带送带气缸|Cylinder podawania tasmy grubej kleju 1
+涂胶2 厚带送带气缸|Cylinder podawania tasmy grubej kleju 2
+薄带送带气缸|Cylinder podawania tasmy cienkiej
+涂胶1 薄带送带气缸|Cylinder podawania tasmy cienkiej kleju 1
+涂胶2 薄带送带气缸|Cylinder podawania tasmy cienkiej kleju 2
+裁断气缸|Cylinder tnacy tasmy
+涂胶1 裁断气缸|Cylinder tnacy kleju 1
+涂胶2 裁断气缸|Cylinder tnacy kleju 2
+薄带裁断气缸|Cylinder tnacy tasmy cienkiej
+涂胶1 薄带裁断气缸|Cylinder tnacy tasmy cienkiej kleju 1
+涂胶2 薄带裁断气缸|Cylinder tnacy tasmy cienkiej kleju 2
+涂胶1 厚带裁断气缸|Cylinder tnacy tasmy grubej kleju 1
+涂胶2 厚带裁断气缸|Cylinder tnacy tasmy grubej kleju 2
+工件间距1|Odleglosc 1 elementu roboczego
+工件间距2|Odleglosc 2 elementu roboczego
+喷涂|Rozpylacz
+喷涂开|Rozpylacz otwarty
+喷涂关|Rozpylacz zamkniety
+前皮带压轮|Rolka dociskowa przedniego pasa
+前皮带压轮升|Rolka dociskowa przedniego pasa w gore
+前皮带压轮降|Rolka dociskowa przedniego pasa w dol
+修边前喷涂|Natryskiwanie przed przycinaniem
+胶门气缸|Cylinder klejacy
+胶门气缸开|Cylinder klejacy otwarty
+胶门气缸关|Cylinder klejacy zamkniety
+涂胶1 胶门气缸|Cylinder klejacy kleju 1
+涂胶2 胶门气缸|Cylinder klejacy kleju 2
+涂胶1 胶门气缸开|Cylinder klejacy kleju 1 otwarty
+涂胶2 胶门气缸开|Cylinder klejacy kleju 2 otwarty
+涂胶1 胶门气缸关|Cylinder klejacy kleju 1 zamkniety
+涂胶2 胶门气缸关|Cylinder klejacy kleju 2 zamkniety
+涂胶1 送带长度|Dlugosc tasmy kleju 1
+涂胶2 送带长度|Dlugosc tasmy kleju 2
+前齐头|Przed plukaniem
+前齐头进|Ciecie przedniej koncowej czesci do przodu
+前齐头下降|Ciecie przedniej koncowej czesci w dol
+前齐头泄压|Ciecie przedniej koncowej czesci dekompresuj
+前齐头复位|Ciecie przedniej czesci zresetuj
+前齐头准备位置|Pozycja gotowosci do ciecia przedniej koncowej czesci
+后齐头|Ciecie koncowej czesci z tylu
+后齐头下降|Ciecie koncowej czesci z tylu w dol
+后齐头进|Ciecie koncowej czesci z tylu do przodu
+后齐头退|Ciecie koncowej czesci z tylu do tylu
+后齐头复位|Ciecie koncowej czesci z tylu zresetuj
+后齐头准备位置|Pozycja gotowosci do ciecia tylnej koncowej czesci
+齐头准备位置|Pozycja gotowosci do ciecia koncowej czesci
+齐头复位|Zresetuj ciecie koncowej czesci
+跟踪1升|Naroznik/Przycinanie 1 w gore
+跟踪2升|Naroznik/Przycinanie 2 w gore
+跟踪3升|Naroznik/Przycinanie 3 w gore
+跟踪1降|Naroznik/Przycinanie 1 w dol
+跟踪2降|Naroznik/Przycinanie 2 w dol
+跟踪4降|Naroznik/Przycinanie 4 w dol
+跟踪1降 连续|Naroznik/Przycinanie 1 w dol kontynuuj
+跟踪4降 连续|Naroznik/Przycinanie 4 w dol kontynuuj
+跟踪1降 不连续|Naroznik/Przycinanie 1 w dol nie kontynuuj
+跟踪4降 不连续|Naroznik/Przycinanie 4 w dol nie kontynuuj
+跟踪2升 连续|Naroznik/Przycinanie 2 w gore kontynuuj
+跟踪3升 连续|Naroznik/Przycinanie 3 w gore kontynuuj
+跟踪4升 连续|Naroznik/Przycinanie 4 w gore kontynuuj
+跟踪2升 不连续|Naroznik/Przycinanie 2 w dol nie kontynuuj
+跟踪3升 不连续|Naroznik/Przycinanie 3 w dol nie kontynuuj
+跟踪1准备位置|Pozycja gotowa naroznika 1
+跟踪2准备位置|Pozycja gotowa naroznika 2
+跟踪3准备位置|Pozycja gotowa naroznika 3
+跟踪1 不连续|Naroznik/Przycinanie 1 nie kontynuuj
+跟踪2 不连续|Naroznik/Przycinanie 2 nie kontynuuj
+跟踪1下 连续|Naroznik/Przycinanie 1 w dol kontynuuj
+跟踪3下 连续|Naroznik/Przycinanie 3 w dol kontynuuj
+跟踪1下 不连续|Naroznik/Przycinanie 1 w dol nie kontynuuj
+跟踪3下 不连续|Naroznik/Przycinanie 3 w dol nie kontynuuj
+跟踪2上 连续|Naroznik/Przycinanie 2 w gore kontynuuj
+跟踪4上 连续|Naroznik/Przycinanie 4 w gore kontynuuj
+跟踪2上 不连续|Naroznik/Przycinanie 2 w dol nie kontynuuj
+跟踪4上 不连续|Naroznik/Przycinanie 4 w dol nie kontynuuj
+跟踪1上|Naroznik/Przycinanie 1 w gore
+跟踪2下|Naroznik/Przycinanie 2 w dol
+跟踪1泄压|Naroznik/Przycinanie 1 dekompresuj
+跟踪2泄压|Naroznik/Przycinanie 2 dekompresuj
+跟踪1进|Naroznik/Przycinanie 1 do przodu
+跟踪2进|Naroznik/Przycinanie 2 do przodu
+跟踪3进|Naroznik/Przycinanie 3 do przodu
+跟踪4进|Naroznik/Przycinanie 4 do przodu
+跟踪1|Naroznik/Przycinanie 1
+跟踪2|Naroznik/Przycinanie 2
+跟踪3|Naroznik/Przycinanie 3
+跟踪4|Naroznik/Przycinanie 4
+跟踪3复位|Naroznik/Przycinanie 3 zresetuj
+跟踪4复位|Naroznik/Przycinanie 4 zresetuj
+后皮带压轮|Rolka dociskowa tylnego pasa
+后皮带压轮开|Rolka dociskowa tylnego pasa w gore
+后皮带压轮关|Rolka dociskowa tylnego pasa w dol
+涂胶1 加热灯管开|Lampa grzewcza kleju 1 wlaczona
+涂胶1 加热灯管关|Lampa grzewcza kleju 1 wylaczona
+涂胶2 加热灯管开|Lampa grzewcza kleju 2 wlaczona
+涂胶2 加热灯管关|Lampa grzewcza kleju 2 wylaczona
+输送带速度|Predkosc podawania tasmy
+送料器|Podajnik
+铣刀1退|Frezowanie 1 do tylu
+铣刀2退|Frezowanie 2 do tylu
+铣刀1退距离|Odleglosc frezowania 1 do tylu
+铣刀2退距离|Odleglosc frezowania 2 do tylu
+铣刀除尘|Odciaganie pylu z frezowania
+铣刀除尘开|Odciaganie pylu z frezowania otwarte
+铣刀除尘关|Odciaganie pylu z frezowania zamkniete
+铣刀1进|Frezowanie 1 do przodu
+铣刀2进|Frezowanie 2 do przodu
+铣刀1进距离|Odleglosc frezowania 1 do tylu
+铣刀2进距离|Odleglosc frezowania 2 do tylu
+工件间距|Miejsce na obrabiany przedmiot
+预热时间|Czas podgrzewania
+加热间隔|Interwal grzania
+直边胶门气缸|Cylinder do klejenia prostej krawedzi
+斜边胶门气缸|Klejenie krawedzi skosnej
+修边R1位置|Pozycja przycinania R1
+修边R2位置|Pozycja przycinania R2
+压贴位置|Nacisnij Pozycja
+胶门气缸关闭延时|Niskie opoznienie zamkniecia cylindra z klejem
+输送带频率|Czestotliwosc przenosnika tasmowego
+涂胶频率|Czestotliwosc kleju
+移动电机|Ruchomy silnik
+木皮|Fornir
+窄边木皮|Cienki fornir
+窄边0.45mm|Cienka krawedz 0,45 mm
+窄边1.0mm|Cienka krawedz 1,0mm
+窄边2.0mm|Cienka krawedz 2,0mm
+宽边木皮|Szeroki fornir
+宽边0.45mm|Szeroka krawedz 0,45 mm
+宽边1.0mm|Szeroka krawedz 1,0mm
+宽边2.0mm|Szeroka krawedz 2,0mm
+读取失败,xml文件有错误!|Nie mozna odczytac, blad w pliku XML!
+输入|Wejscie
+找不到该条码|Nie mozna znalezc kodu kreskowego
+输入密码|Wprowadz haslo
+密码错误次数达到5次,程序已锁定,请联系管理员|Bledne haslo podano 5 razy. Program zostal zablokowany. Skontaktuj sie z administratorem
+提示|Koncowka
+不存在|Nie istanieje!
+正在使用中|W uzyciu
+更改语言设置成功,重新打开程序生效!|Pomyslnie zmieniono ustawienie języka, ponownie otworz program, aby zastosować!
+输入数值|Wartosci wejsciowe
+移动端|Mobilny
+固定端|Staly koniec
+板长|Dlugosc plyty
+板宽|Szerokosc plyty
+板厚|Grubosc plyty
+数量|Ilosc
+封边高度|Wysokosc pasma krawedzi
+封边厚度|Grubosc pasma krawedzi
+数据已发送|Dane juz wyslano
+->设置<-|->Ustaw<-
+文件已存在,是否替换|Plik juz istnieje, zamien lub nie
+保存成功|Zapisano pomyslnie
+请输入保存名称|Wpisz nazwe do zapisania
+加工列表|Wykaz procesow
+条码|Kod kreskowy
+路径|Sciezka
+取消|Anuluj
+是|Tak
+否|Nie
+确认|Zapewnij
+无法与PLC通讯,请检查IP地址,请检测连线|Brak komunikacji z PLC, sprawdz adres IP i polaczenie
+参数恢复完毕|Zakonczono odzyskiwanie parametrow
+正在执行,请耐心等待|W toku, badz cierpliwy
+板长错误|Blad dlugosci plyty
+板宽错误|Blad szerokosci plyty
+板厚错误|Blad grubosci plyty
+删除当前定义|Usun biezaca definicje
+删除成功|Usunieto
+删除当前条码|Usun biezacy kod kreskowy
+清空条码列表|Wyczysc liste kodow kreskowych
+当前边无加工数据|Brak biezacych danych przetwarzania krawedzi
+无加工数据|Brak danych procesowych
+清理多少天之前的历史记录|Z ktorych dni chcesz wyczyscic zapisy
+清理完毕|Wyczyszczony
+请输入整数|Wprowadz liczbe calkowita
+机器已锁定,请联系供应商
+密码错误
+名称|Nazwa
+参数|Parametr
+数值|Wartosc
+创建时间|Data utworzenia
+开始时间|Czas rozpoczecia
+时|Godzina
+分|Minuta
+正常|Normalne
+返工|Przerobka
+维修|Naprawa
+操作|Dzialanie
+设置1|Ustawienie1
+设置2|Setting2
+监控|Monitor
+报警|Alarm
+扫码|Zeskanuj
+记录|Zapis
+报警记录|Zapis alarmu
+开关记录|Zapis On/Off
+操作记录|Zapis operacji
+加工记录|Zapis procesu
+管理员|Administrator
+操作工|Operator
+标准用户|Użytkownik
+调机员|Debugger
+全屏切换|Pelny ekran
+登录|Logowanie
+切换到移动端|Przelacz na mobilny
+切换到固定端|Przelacz na stay koniec
+服务器连接|Podlaczenie serwera
+日常维护提示|Instrukcja codziennej konserwacji
+条码获取|Uzyskaj kod kreskowy
+PLC连接|Polaczenie PLC
+序号|Nr
+参数名称|Nazwa
+当前参数值|Biezaca wartosc
+设置参数值|Ustalona wartosc
+低速|Niska predkosc
+中速|Srednia predkosc
+高速|Wysoka predkosc
+加工|Proces
+刷新|Odswiez
+清理记录|Wyczysc zapis
+扫码枪设置|Ustawienia skanera
+串口号|Port COM
+波特率|Predkosc transmisji
+校验位|Bity parzystosci
+数据位|Bity danych
+停止位|Zatrzymaj bity
+服务器地址|Adres serwera
+机器序号|Nr maszyny
+监听地址|Adres wysluchiwania
+确定|Potwierdzenie
+检测|Test
+清空|Czysty
+返回|Wroc
+输出|Wyjscie
+连续跟踪|Ciagle przycinanie naroznika
+快速溶胶1|Szybkie roztopienie 1
+快速溶胶2|Szybkie roztopienie 2
+槽长度|Dlugosc gniazda
+机器型号:|Model:
+机型设置|Ustawienia modelu:
+锁机
+锁机密码
+解锁密码
+再次输入
+锁机时间（天）
+日
+月
+年
+时间校准
+进入密码
+全开槽1|Pelne odchylenie 1
+全开槽2|Pelne odchylenie 2
+全开槽3|Pelne odchylenie 3
+速度增加|Przyspieszenie
+速度减少|Zwolnienie
+左180度|Lewo 180°
+右180度|Prawo 180°
+360度|360°
+上180度|W gore 180°
+下180度|W dol 180°
+上|W gore
+下|W dol
+快速上|Szybko w gore
+快速下|Szybko w dol
+左|Lewy
+右|Prawy
+快速左|Szybko w prawo
+快速右|Szybko w lewo
+停止|Stop
+前预留增加|Rezerwa dlugosci z przodu+
+前预留减少|Rezerwa dlugosci z przodu+
+后预留增加|Rezerwa dlugosci z tylu-
+后预留减少|Rezerwa dlugosci z tylu-
+槽长度增加|Dlugosc gniazda+
+槽长度减少|Dlugosc gniazda-
+带前增加|Przod+
+带前减少|Przod-
+带后增加|Tyl+
+带后减少|Tyl+
+报警序号|Nr alarmu
+报警内容|Komunikat alarmowy
+结束时间|Czas zakonczenia
+报警时间(秒)|Czas alarmu (sek.)
+打开时间|Czas otwarcia
+关闭时间|Czas zamkniecia
+运行时间(分)|Czas dzialania (minuta)
+操作时间|Czas operacji
+操作类型|Typ operacji
+加工耗时(秒)|Czas przetwarzania (sek.)
+加工模式|Tryb przetwarzania
+加工长度|Dlugosc procesu
+铣刀1|Mlyny 1
+铣刀2|Mlyny 2
+涂胶1进|Klej 1 do przodu
+涂胶2进|Klej 2 do przodu
+齐头15度|Ciecie koncowej czesci 15°
+粗修|Zgrubne przycinanie
+精修|Precyzyjne przycinanie
+跟踪修边|Naroznik/Przycinanie
+0度|0°
+不连续跟踪|Przerwij przycinanie
+刮边|Skrobanie
+平刮边|Skrobanie na plasko
+开槽1|Odchylanie1
+半开槽1|Pol-odchylenie 1
+后预留1|Rezerwa dlugosci z tylu 1
+开槽2|Odchylenie 2
+半开槽2|Pol-odchylenie 2
+后预留2|Rezerwa dlugosci z tylu 2
+开槽3|Odchylenie 3
+半开槽3|Pol-odchylenie 3
+后预留3|Rezerwa dlugosci z tylu 3
+抛光|Polerowanie
+机器累计通电时间|Laczny czas wlaczenia
+机器累计空转时间|Laczny czas dzialania bez obciazenia
+机器累计加工时间|Laczny czas procesu
+铣刀1累计运转时间|Laczny czas frezowania 1
+铣刀2累计运转时间|Laczny czas frezowania 2
+涂胶1累计运转时间|Laczny czas dzialania kleju 1
+涂胶1累计加热时间|Laczny czas ogrzewania kleju 1
+快速溶胶1累计加热时间|Laczny czas ogrzewania dla szybkiego topnienia 1
+涂胶2累计运转时间|Laczny czas dzialania kleju 2
+涂胶2累计加热时间|Laczny czas ogrzewania kleju 2
+快速溶胶2累计加热时间|Laczny czas ogrzewania dla szybkiego topnienia 2
+前齐头累计运转时间|Laczny czas ciecia przedniej koncowej czesci
+后齐头累计运转时间|Laczny czas ciecia tylnej koncowej czesci
+粗修累计运转时间|Laczny czas dzialania zgrubnego przycinania
+精修累计运转时间|Laczny czas dzialania precyzyjnego przycinania
+跟踪1、2累计运转时间|Naroznik/przycinanie 1,2, Laczny czas dzialania
+跟踪3、4累计运转时间|Naroznik/przycinanie 3,4, Laczny czas dzialania
+刮边1累计运转时间|Laczny czas skrobania 1
+刮边2累计运转时间|Laczny czas skrobania 2
+开槽1累计运转时间|Laczny czas odchylania 1
+开槽2累计运转时间|Laczny czas odchylania 2
+抛光累计运转时间|Laczny czas polerowania
+涂胶进|Klej do przodu
+涂胶累计运转时间|Laczny czas pracy kleju
+涂胶累计加热时间|Laczny czas ogrzewania kleju
+快速溶胶累计加热时间|Laczny czas ogrzewania dla szybkiego topnienia 1
+刮边累计运转时间|Laczny czas skrobania
+跟踪累计运转时间|Naroznik/przycinanie, Laczny czas dzialania
+低温报警|Niska temperatura
+齐头位置错误|Blad lokalizacji ciecia tylnej czesci
+急停报警|Przycisk zatrzymania awaryjnego
+低气压报警|Niskie cisnienie powietrza
+跟踪错误报警|Blad zaokraglania naroznika
+电机过载报警|Blad przeciazenia silnika
+模式错误报警|Blad trybu
+没有选择封边带|Nie wybrano tasmy
+门开关报警|Alarm przelacznika drzwi
+进料安全报警|Alarm bezpieczenstwa podawania
+输送带通讯错误|Blad komunikacji z przenosnikiem tasmowym
+涂胶通讯错误|Blad komunikacji klejenia
+齐头通讯错误|Blad komunikacji ciecia tylnej czesci
+粗修通讯错误|Blad komunikacji zgrubnego przycinania
+精修通讯错误|Blad komunikacji precyzyjnego przycinania
+涂胶加热通讯错误|Blad komunikacji ogrzewania kleju
+快速溶胶通讯错误|Blad komunikacji szybkiego topienia
+跟踪1、2通讯错误|Blad komunikacji naroznika 1,2
+跟踪3、4通讯错误|Blad komunikacji naroznika 3,4
+开槽1通讯错误|Blad komunikacji odchylania 1
+开槽2通讯错误|Blad komunikacji odchylania 2
+封边带厚度错误|Blad komunikacji Moblile i stalym koncem
+风机过载|Przeciazenie dmuchawy
+保温时间设置错误|Blad ustawienia czasu izolacji
+无带报警,请更换封边带|Alarm braku tasmy, wymien tasme krawedziowa
+换带错误|Blad wymiany tasmy
+铣刀1通讯错误|Blad komunikacji wstepnego frezowania 1
+铣刀2通讯错误|Blad komunikacji wstepnego frezowania 2
+前齐头错误|Blad ciecia przedniej koncowej czesci
+后齐头错误|Blad ciecia tylnej koncowej czesci
+跟踪1错误|Blad przycinania naroznika 1
+跟踪2错误|Blad przycinania naroznika 2
+跟踪3错误|Blad przycinania naroznika 3
+跟踪4错误|Blad przycinania naroznika 4
+无油报警|Uwolniony olej smarowy
+涂胶开机温度未到达|Temperatura poczatkowa kleju nie wystarczy
+请将涂胶切换到加热状态|Przelacz klejenie na stan ogrzewania
+封边带卡带|Tasma utknela
+压带伺服报警|Alarm serwo cisnienia tasmy
+送带伺服报警|Alarm serwo podajnika tasmy
+刮边夹带R1保护位置|Zabezpieczenie wyzwalacza tasmy R1
+刮边夹带R2保护位置|Zabezpieczenie wyzwalacza tasmy R2
+压梁升降异常,请检查电源线相序是否正确|Blad wiazki cisnienia. Sprawdz kolejność faz linii zasilania
+移动伺服报警|Alarm mobilny serwo
+移动左极限|Limit lewego serwo
+移动右极限|Lewy limit Mobilie
+勾头没复位|Prawy limit Moblile
+压梁皮带速度不一致|Roznica predkosci pasa PB
+压梁高度不一致|Roznica wysokosci PB
+换带电机1故障|Awaria silnika pradu stałego 1
+换带电机2故障|Awaria silnika pradu stałego 2
+顶出气缸上升不到位|Cylinder wyrzutnika nie unosi sie na swoim miejscu
+顶出气缸收回不到位|Cylinder wyrzutnika nie wycofuje sie na swoje miejsce
+收回气缸上升不到位|Wycofany cylinder unosi sie nie na swoim miejscu
+进料安全开关|Przelacznik bezpieczenstwa podawania
+急停按钮|Przycisk zatrzymania EMG
+相序错误|Blad zamowienia fazy
+安全门开关|Przelacznik drzwi bezpieczenstwa
+压梁过载|Przeciazenie PB
+压梁升降异常|Blad podnoszenia PB
+抛光1过载|Przeciazenie polerowania 1
+抛光2过载|Przeciazenie polerowania 2
+连线报警输入|Wejscie alarmowe polaczone z maszyna
+涂胶1低温报警|Alarm niskiej temperatury kleju 1
+涂胶1开机温度未到达|Temperatura rozruchu kleju 1 nie została osiągnięta
+涂胶2低温报警|Blad iskiej temperatury kleju 2
+涂胶2开机温度未到达|Temperatura rozruchu kleju 2 nie została osiągnięta
+没有选择涂胶机构|Klej nie jest wybrany
+无带报警|Zuzyta tasma
+卡带报警|Blad zablokowania tasmy
+齐头油泵无油报警|Alarm bezolejowygo konca frezu
+黄油泵无油报警|Alarm braku smaru
+变频器报警|Alarm falownika
+PLC通信异常|Blad komunikacji PLC
+移动端异常|Blad ruchomego konca
+移动端无带报警|Tasma zuzyta na koncu ruchomym
+固定端异常|Blad stalego konca
+固定端无带报警|Tasma zuzyta na stalym koncu
+送料器通讯错误报警|Blad komunikacji podajnika tasmowego
+移动电机通讯错误报警|Blad komunikacji z ruchomym silnikiem
+移动左限位|Limit ruchu w lewo
+移动右限位|Limit ruchu w prawo
+快速溶胶1无胶报警|Zuzyty klej szybkiego roztopienia 1
+快速溶胶2无胶报警|Zuzyty klej szybkiego roztopienia 2
+涂胶2加热通讯报警|Alarm komunikacji ogrzewania kleju 2
+快速溶胶2通讯报警|Alarm  komunikacji szybkiego topienia
+涂胶2通讯报警|Alarm komunikacji kleju 2
+涂胶1卡带报警|Alarm zablokowania tasmy kleju 1
+涂胶1压带伺服报警|Alarm serwa prasy tasmowej kleju 1
+涂胶2卡带报警|Alarm zablokowania tasmy kleju 2
+涂胶1换带电机1故障|Awaria silnika 1 wymiany tasmy kleju 1
+涂胶1换带电机2故障|Awaria silnika 2 wymiany tasmy kleju 1
+涂胶2换带电机1故障|Awaria silnika 1 wymiany tasmy kleju 2
+涂胶2换带电机2故障|Awaria silnika 2 wymiany tasmy kleju 2
+1、连锁保护磁性开关|1、Zabezpieczenie przelacznika magnetycznego
+2、复位气缸|2、Cylinder spoczynkowy
+快速溶胶2低温报警|Niska temperatura szybkiego topienia 2
+快速溶胶无胶报警|Blad szybkiego topnienia
+刮边夹带保护位置|Pozycja zabezpieczenia przed porysowaniem
+送料安全报警|Blad zasilania
+开槽3通讯错误|Blad odchylania 3
+送料器通讯错误|Blad podawania
+移动电机通讯错误|Blad ruchomego silnika
+快速溶胶加热通讯错误|Alarm ogrzewania dla szybkiego topienia
+刮边夹带1保护|Zabezpieczenie przed porysowaniem 1
+刮边夹带2保护|Zabezpieczenie przed porysowaniem 2
+涂胶1变频器通讯错误|Blad komunikacji inwertera kleju 1
+涂胶1加热通讯错误|Blad komunikacji ogrzewania kleju 1
+涂胶2压带伺服报警|Alarm serwo pasa dociskowego kleju 2
+涂胶2送带伺服报警|Alarm serwo kleju 2
+涂胶2变频器通讯错误|Blad komunikacji inwertera kleju 2
+铣刀安全罩松动|Luzna oslona bezpieczenstwa frezu
+送带电机1故障|Awaria silnika podajnika tasmy 1
+送带电机2故障|Awaria silnika podajnika tasmy 2
+低温
+急停
+低气压
+跟踪错误
+电机过载|Przeciazenie Mover
+模式错误
+进料安全
+(无)|(Brak)
+齐头1错误
+齐头2错误
+连线报警|Alarm podlaczenia
+开槽3通讯错误报警|Blad komunikacji odchylania 3
+涂胶1送带伺服报警|Alarm serwo podajnika tasmy kleju 1
+输送带编码器A相|Faza A enkodera przenosnika tasmowego
+输送带编码器B相|Faza B enkodera przenosnika tasmowego
+压梁编码器A相|Faza A enkodera PB
+压梁编码器B相|Faza B enkodera PB
+开始行程开关|Uruchom wylacznik krancowy
+急停开关|Przelacznik E.M.G
+抛光过载报警|Przeciazenie polerowania
+输送带点动按钮|Jog przenosnika
+液位传感器|Czujnik poziomu plynu
+快速溶胶磁性开关|Przelacznik magnetyczny szybkiego topienia
+前齐头尾磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci
+前齐头中磁性开关|Przelacznik magnetyczny posredniego ciecia przedniej koncowej czesci
+前齐头进退磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci przod/tyl
+后齐头底磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci w dol
+后齐头接近开关|Przelacznik zblizeniowy ciecia tylnej koncowej czesci
+后齐头进退磁性开关|Czujnik ciecia tylenj koncowej czesci przod/tyl
+跟踪1进退磁性开关|Przelacznik magnetyczny naroznika 1 przod/tyl
+跟踪1摆动磁性开关|Przełącznik magnetyczny kolysania naroznika 1
+跟踪1接近开关|Przełącznik zbliżeniowy naroznika 1
+跟踪2进退磁性开关|Przelacznik magnetyczny naroznika 2 przod/tyl
+跟踪2上磁性开关|Przełącznik magnetyczny naroznika 2 w gore
+跟踪2下磁性开关|Przełącznik magnetyczny naroznika 2 w dol
+跟踪3进退磁性开关|Przelacznik magnetyczny naroznika 3 przod/tyl
+跟踪3摆动磁性开关|Przełącznik magnetyczny kolysania naroznika 3
+跟踪3接近开关|Przełącznik zblizeniowy naroznika 3
+跟踪4进退磁性开关|Przelacznik magnetyczny naroznika 4 przod/tyl
+跟踪4上磁性开关|Przełącznik magnetyczny naroznika 4 w gore
+跟踪4下磁性开关|Przełącznik magnetyczny naroznika 4 w dol
+带1按钮|Przycisk tasmy 1
+带2按钮|Przycisk tasmy 2
+带3按钮|Przycisk tasmy 3
+带4按钮|Przycisk tasmy 4
+带5按钮|Przycisk tasmy 5
+带6按钮|Przycisk tasmy 6
+带7按钮|Przycisk tasmy 7
+带8按钮|Przycisk tasmy 8
+带9按钮|Przycisk tasmy 9
+带10按钮|Przycisk tasmy 10
+带1无带报警|Brak tasmy 1
+带2无带报警|Brak tasmy 2
+带3无带报警|Brak tasmy 3
+带4无带报警|Brak tasmy 4
+带5无带报警|Brak tasmy 5
+带6无带报警|Brak tasmy 6
+带7无带报警|Brak tasmy 7
+带8无带报警|Brak tasmy 8
+带9无带报警|Brak tasmy 9
+带10无带报警|Brak tasmy 10
+封边带气缸1磁性开关|Cylinder magnetyczny obrzeza 1
+封边带气缸2磁性开关|Cylinder magnetyczny obrzeza 2
+输送带电机|Silnik przenosnika tasmowego
+压梁升|Plyta dociskowa w gore
+压梁降|Plyta dociskowa w dol
+限料气缸|Cylinder szybkiego topnienia
+快速溶胶气缸|Cylinder szybkiego topnienia
+裁断进刀|Ciecie tasmy do przodu
+裁断退刀|Ciecie tasmy do tylu
+前齐头升|Ciecie przedniej koncowej czesci w gore
+前齐头降|Ciecie przedniej koncowej czesci w dol
+日光灯|Lampa fluoroscencyjna
+报警灯|Alarm dzwiekowy
+润滑油泵|Pompa smarowania
+精修进退|Dokladne przycinanie przod/tyl
+跟踪1进退|Zaokraglanie narozy 1 przod/tyl
+跟踪1摆动气缸|Cylinder oscylujacy zaokraglania narozy 1
+跟踪2进退|Zaokraglanie narozy 2 przod/tyl
+跟踪2摆动5Mpa|Cylinder oscylujacy 5 Mpa zaokraglania narozy 2
+跟踪2摆动2Mpa|Cylinder oscylujacy 3 Mpa zaokraglania narozy 2
+跟踪3进退|Zaokraglanie narozy 3 przod/tyl
+跟踪3摆动气缸|Cylinder oscylujacy zaokraglania narozy 3
+跟踪4进退|Zaokraglanie narozy 4 przod/tyl
+跟踪4摆动气缸|Cylinder oscylujacy zaokraglania narozy 4
+刮边进退|Skrobanie przod/tyl
+刮边前夹带|Przednia opaska skrobania
+刮边后夹带|Tylna opaska skrobania
+平刮边进退除尘|Odsysanie pylu ze skrobania na plasko
+抛光电机|Silnik polerowania
+抛光气缸|Cylinder polerujacy
+封边带前进气缸1|Cylinder 1 obrzeza do przodu
+封边带前进气缸2|Cylinder 2 obrzeza do przodu
+夹带1前气缸|Cylinder przed zamknieciem Clipband 1
+夹带2前气缸|Cylinder przed zamknieciem Clipband 2
+夹带3前气缸|Cylinder przed zamknieciem Clipband 3
+夹带4前气缸|Cylinder przed zamknieciem Clipband 4
+夹带5前气缸|Cylinder przed zamknieciem Clipband 5
+夹带6前气缸|Cylinder przed zamknieciem Clipband 6
+夹带7前气缸|Cylinder przed zamknieciem Clipband 7
+夹带8前气缸|Cylinder przed zamknieciem Clipband 8
+夹带9前气缸|Cylinder przed zamknieciem Clipband 9
+夹带10前气缸|Cylinder przed zamknieciem Clipband 10
+夹带1后气缸|Cylinder za zamknieciem Clipband 1
+夹带2后气缸|Cylinder za zamknieciem Clipband 2
+夹带3后气缸|Cylinder za zamknieciem Clipband 3
+夹带4后气缸|Cylinder za zamknieciem Clipband 4
+夹带5后气缸|Cylinder za zamknieciem Clipband 5
+夹带6后气缸|Cylinder za zamknieciem Clipband 6
+夹带7后气缸|Cylinder za zamknieciem Clipband 7
+夹带8后气缸|Cylinder za zamknieciem Clipband 8
+夹带9后气缸|Cylinder za zamknieciem Clipband 9
+夹带10后气缸|Cylinder za zamknieciem Clipband 10
+手柄点动按钮|Uchwyt przycisku jog
+手柄钥匙旋钮|Uchwyt galki
+面板启动按钮|Przycisk uruchomienia panelu
+齐头无油报警|Alarm bezolejowygo konca frezu
+黄油无油报警|Alarm braku smaru
+快速溶胶1液位传感器|Czujnik poziomu plynu szybkiego topnienia 1
+快速溶胶1磁性开关|Przelacznik magnetyczny szybkiego topienia 1
+快速溶胶2液位传感器|Czujnik poziomu plynu szybkiego topnienia 2
+快速溶胶2磁性开关|Przelacznik magnetyczny szybkiego topienia 2
+前齐头上磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci w gore
+前齐头退磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci do tylu
+后齐头中磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci posrodku
+后齐头退磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci do tylu
+跟踪1中磁性开关|Przelacznik magnetyczny naroznika/przycinania 1 po srodku
+跟踪1退磁性开关|Przelacznik magnetyczny naroznika/przycinania 1 z tylu
+跟踪2退磁性开关|Przelacznik magnetyczny naroznika/przycinania 2 z tylu
+跟踪3下磁性开关|Przełącznik magnetyczny naroznika/przycinania 1 w dol
+跟踪3退磁性开关|Przelacznik magnetyczny naroznika/przycinania 3 z tylu
+跟踪4退磁性开关|Przelacznik magnetyczny naroznika/przycinania 4 z tylu
+涂胶1无带报警|Brak tasmy kleju 1
+涂胶2无带报警|Brak tasmy kleju 2
+压梁上极限|Gorny limit PB
+压梁下极限|Dolny limit PB
+输送带启动/吹气|Uruchomienie/przedmuch przenosnika tasmowego
+压梁上升|Plyta dociskowa w gore
+压梁下降|Plyta dociskowa w dol
+涂胶1加热灯管|Lampa grzewcza kleju 1
+涂胶2加热灯管|Lampa grzewcza kleju 2
+抛光电机1|Silnika polerowania 1
+抛光电机2|Silnika polerowania 2
+齐头油泵|Pompa oleju ciecia koncowego
+黄油泵|Pompa smaru
+安全门|Drzwi bezpieczenstwa
+报警灯红|Alarm jasnoczerwony
+报警灯黄|Alarm jasnozolty
+报警灯绿|Alarm jasnozielony
+涂胶1胶门气缸|Dzrwi cylinder klejacego kleju 1
+涂胶1送带气缸|Cylinder podawania kleju 1
+涂胶1裁断进刀|Frez kleju 1 do przodu
+涂胶1裁断退刀|Wycofanie krezu kleju 1
+快速溶胶1气缸|Cylinder szybkiego topnienia 1
+快速溶胶1吹气|Przedmuchanie szybkiego topnienia 1
+涂胶1压贴1mm|Dociskanie na 1mm kleju 1
+涂胶1压贴2mm|Dociskanie na 1mm kleju 1
+涂胶2胶门气缸|Cylinder klejacy kleju 2
+涂胶2送带气缸|Cylinder podawania tasmy kleju 2
+涂胶2裁断进刀|Frez kleju 2 do przodu
+涂胶2裁断退刀|Wycofanie krezu kleju 2
+快速溶胶2气缸|Cylinder szybkiego topnienia 2
+快速溶胶2吹气|Przedmuchanie szybkiego topnienia 2
+涂胶2压贴1mm|Dociskanie na 1mm kleju 2
+涂胶2压贴2mm|Dociskanie na 2mm kleju 2
+前齐头2Mpa|Ciecie przedniej koncowej czesci 2 Mpa
+前齐头上|Ciecie przedniej koncowej czesci w gore
+后齐头下|Ciecie koncowej czesci z tylu w dol
+齐头15°|Ciecie koncowej czesci 15°
+修边1开|Trymer 1 wlaczony
+修边1进|Trymer 1 do przodu
+修边2开|Trymer 2 wlaczony
+修边2进|Trymer 2 do przodu
+跟踪1进气缸|Naroznik/Przycinanie 1 do przodu
+跟踪2梭阀|Przelacznik obiegu naroznika/przycinania 2
+跟踪2上|Naroznik/Przycinanie 2 w gore
+跟踪3摆动|Kolysanie naroznika/przycinania 3
+跟踪4上|Naroznik/Przycinanie 4 w gore
+刮边1开|Skrobanie 1 wlaczone
+刮边1进|Skrobanie 1 do przodu
+刮边1吹气|Skrobanie 1 przedmuch
+刮边夹带1|Klips do skrobania tasmy 1
+刮边夹带1吹气|Klips do skrobania tasmy 1 przedmuch
+刮边2开|Skrobanie 2 wlaczone
+刮边2进|Skrobanie 2 do przodu
+刮边2吹气|Skrobanie 2 przedmuch
+刮边夹带2|Klips do skrobania tasmy 2
+刮边夹带2吹气|Klips do skrobania tasmy 2 przedmuch
+凸轮电机1|Silnik krzywki 1
+凸轮电机2|Silnik krzywki 2
+连线报警输出|Wyjscie alarmu podlaczenia
+快速溶胶1加胶粒|Dodaj klej szybkiego topienia 1
+快速溶胶2加胶粒|Dodaj klej szybkiego topienia 2
+开槽1升|Odchylenie 1 w gore
+开槽2升|Odchylenie 2 w gore
+平刮边吹气|Przedmuch skrobania na plasko
+编码器A相|Faza A enkodera
+编码器B相|Faza B enkodera
+前齐头磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci
+后齐头磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci
+快速溶胶光电开关1|Przelacznik fotoelektryczny 1 szybkiego topienia
+快速溶胶光电开关2|Przelacznik fotoelektryczny 2 szybkiego topienia
+快速溶胶低温报警|Niska temperatura szybkiego topienia
+快速溶胶2光电开关1|Przelacznik fotoelektryczny 1 szybkiego topienia 2
+快速溶胶2光电开关2|Przelacznik fotoelektryczny 2 szybkiego topienia 2
+前齐头气缸2Par|Cylinder 2Par ciecia przedniej koncowej czesci
+涂胶进退|Klej do przodu/do tylu
+前齐头气缸|Cylinder ciecia przedniej koncowej czesci
+后齐头气缸|Cylinder ciecia tylnej koncowej czesci
+油泵|Pompa olejowa
+夹带1|Klips 1
+夹带2|Klips 2
+辅助加热|Dodatkowe ogrzewanie
+铣刀前喷涂|Opryskiwanie przed frezowaniem
+粗修进退|Zgrubne przycinanie przod/tyl
+粗修开关|Przelacznik przycinania zgrubnego
+精修开关|Przelacznik przycinania precyzyjnego
+刮边开关|Przelacznik skrobania
+清洁气缸|Wyczysc cylinder
+平刮边气缸|Cylinder skrobania na plasko
+(半)开槽1升|(Pol)odchylenie 1 w gore
+(半)开槽2升|(Pol)odchylenie 2 w gore
+快速溶胶气缸1|Cylinder szybkiego topnienia 1
+快速溶胶气缸2|Cylinder szybkiego topnienia 2
+开槽3进|Wygiecie 3 do przodu
+(半)开槽3升|(Pol)odchylenie 3 w gore
+开槽3除尘|Wygiecie do odciagania pylu 3
+送料气缸|Cylinder podawania
+气动齐头|Pneumatyczne ciecie koncowej czesci
+抛光过载|Przeciazenie polerowania
+前齐头下磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci w dol
+后齐头下磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci w dol
+移动左极限开关|Przelacznik ograniczenia na lewo
+移动右极限开关|Przelacznik ograniczenia na prawo
+顶出上磁性开关|Wysun przelacznik magnetyczny
+顶出下磁性开关|Wysun nizszy przelacznik magnetyczny
+收回上磁性开关|Wcisnij przelacznik magnetyczny
+收回下磁性开关|Wcisnij przelacznik magnetyczny
+勾头接近开关|Przelacznik zblizeniowy glowicy haka
+支撑前光电|Przelacznik fotoelektryczny przedniej obslugi
+支撑后光电|Przelacznik fotoelektryczny obslugi
+送带光电|Urzadzenie optoelektroniczne podajace tasme
+卡带光电|Urzadzenie optoelektroniczne zablokowania opaski
+送带按钮|Przycisk podawania tasmy
+勾头保护接近开关|Przelacznik zblizeniowy zabezpieczenia haka
+勾头收回检测接近开关|Przelacznik zblizeniowy wykrycia schowania glowicy haka
+侧推光电|Przelacznik fotoelektryczny do popychania z boku
+加热灯管|Lampa grzewcza
+前齐头上升|Ciecie przedniej koncowej czesci w gore
+压贴1mm|Dociskanie 1mm
+压贴2mm|Tasma dociskania 2mm
+修边R1开关|Przelacznik przycinania R1
+修边R2进退|Przycinanie R2 przod/tyl
+修边R2开关|Przelacznik przycinania R2
+刮边R1开关|Przelacznika naroznika R1
+刮边R1进退|Naroze R1 przod/tyl
+刮边R1除尘|Odpylanie skrobania na plasko R1
+刮边R2开关|Przelacznik skrobania na plasko R2
+刮边R2进退|Skrobanie na plaski R2 przod/tyl
+刮边R2除尘|Odpylanie skrobania na plasko R1
+刮边R1夹带吹气|Przedmuch zacisku tasmy skrobania R1
+刮边R2夹带吹气|Przedmuch zacisku tasmy skrobania R2
+顶出气缸|Cylinder wysuwania
+上升气缸|Cylinder wznoszenia
+收回气缸|Cylinder opadania
+侧推气缸|Cylinder bocznego posuwania
+移动伺服刹车|Hamulec mobilnego serwo
+风气启动|Uruchomienie atmosfery
+侧推轮|Kolo bocznego posuwania
+送带电机1使能|Silnik podajnika tasmy 1 wlaczony
+送带电机1方向|Kierunek silnika podajnika tasmy 1
+送带电机1刹车|Hamulec silnika podajnika tasmy 1
+送带电机2使能|Silnik podajnika tasmy 2 wlaczony
+送带电机2方向|Kierunek silnika podajnika tasmy 2
+送带电机2刹车|Hamulec silnika podajnika tasmy 2
+带1气缸|Cylinder tasmy 1
+带2气缸|Cylinder tasmy 2
+带3气缸|Cylinder tasmy 3
+带4气缸|Cylinder tasmy 4
+送带按钮指示灯|Lampka wskaznika posuwu tasmy
+移动电机编码器A相|Faza A enkodera silnika ruchu
+移动电机编码器B相|Faza B enkodera silnika ruchu
+涂胶1送带光电|Czujnik podawania tasmy klejenia 1
+涂胶1卡带光电|Czujnik zablokowania tasmy kleju 1
+涂胶1带1无带报警|Brak kleju 1 tasmy 1
+涂胶1带2无带报警|Brak kleju 1 tasmy 2
+涂胶1带3无带报警|Brak kleju 1 tasmy 3
+涂胶1带4无带报警|Brak kleju 1 tasmy 4
+涂胶2送带光电|Przelacznik posuwu kleju 2 tasmy
+涂胶2卡带光电|Czujnik zablokowania tasmy kleju 2
+涂胶2带1无带报警|Brak kleju 2 tasmy 1
+涂胶2带2无带报警|Brak kleju 2 tasmy 2
+涂胶2带3无带报警|Brak kleju 2 tasmy 3
+涂胶2带4无带报警|Brak kleju 2 tasmy 4
+涂胶1松带按钮|Poluzowana tasma kleju 1
+涂胶2松带按钮|Poluzowana tasma kleju 2
+跟踪1磁性开关|Przelacznik magnetyczny naroznika/przycinania 1
+跟踪3上接近开关|Przelacznik magnetyczny naroznika/przycinania 3
+快速溶胶1接近开关|Przelacznik zblizeniowy szybkiego topienia 1
+快速溶胶2接近开关|Przelacznik zblizeniowy szybkiego topienia 2
+抛光前清洁|Wyczysc przed polerowaniem
+刹车|Hamulec
+送料器开|Wlaczony podajnik tasmy
+修边R1进退|Trymer R1 do przodu i do tylu
+快速溶胶1抽胶|Pompa kleju szybkiego topienia 1
+快速溶胶2抽胶|Pompa kleju szybkiego topienia 2
+涂胶1带1气缸|Cylinder kleju 1 tasmy 1
+涂胶1带2气缸|Cylinder kleju 1 tasmy 2
+涂胶1带3气缸|Cylinder kleju 1 tasmy 3
+涂胶1带4气缸|Cylinder kleju 1 tasmy 4
+涂胶2带1气缸|Cylinder kleju 2 tasmy 1
+涂胶2带2气缸|Cylinder kleju 2 tasmy 2
+涂胶2带3气缸|Cylinder kleju 2 tasmy 3
+涂胶2带4气缸|Cylinder kleju 2 tasmy 4
+跟踪进|Naroznik do przodu
+跟踪修边1|Naroznik/Przycinanie 1
+跟踪修边2|Naroznik/Przycinanie 2
+跟踪修边3|Naroznik/Przycinanie 3
+跟踪修边4|Naroznik/Przycinanie 4
+涂胶1松带指示灯|Swiatlo poluzowania kleju 1 tasmy
+涂胶2松带指示灯|Swiatlo poluzowania kleju 2 tasmy
+涂胶1送带电机1使能|Silnik 1 Dc kleju 1 En
+涂胶1送带电机1方向|Silnik 1 Dc kleju 1 Dir
+涂胶1送带电机2使能|Silnik 2 Dc kleju 1 En
+涂胶1送带电机2方向|Silnik 2 Dc kleju 1 Dir
+涂胶2送带电机1使能|Silnik 1 Dc kleju 2 En
+涂胶2送带电机1方向|Silnik 1 Dc kleju 2 Dir
+涂胶2送带电机2使能|Silnik 2 Dc kleju 2 En
+涂胶2送带电机2方向|Silnik 2 Dc kleju 2 Dir
+带1磁性开关|Przelacznik magnetyczny tasmy 1
+带2磁性开关|Przelacznik magnetyczny tasmy 2
+带3磁性开关|Przelacznik magnetyczny tasmy 3
+带4磁性开关|Przelacznik magnetyczny tasmy 4
+夹带1气缸|Cylinder zacisku tasmy 1
+夹带2气缸|Cylinder zacisku tasmy 2
+夹带3气缸|Cylinder zacisku tasmy 3
+夹带4气缸|Cylinder zacisku tasmy 4
+涂胶1液位传感器|Czujnik plynu klejenia 1
+涂胶2液位传感器|Czujnik plynu kleju 2
+涂胶1 限料气缸|Cylinder ograniczajacy kleju 1
+涂胶1 进退|Klej 1 przod/tyl
+涂胶2 进退|Klej 2 przod/tyl
+后齐头降|Ciecie koncowej czesci z tylu w dol
+抛光气缸1|Cylinder polerujacy 1
+抛光气缸2|Cylinder polerujacy 2
+修色装置|Urzadzenie regulujace kolor
+前齐头下磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci w dol
+快速溶胶吹气|Przedmuchanie szybkiego topnienia
+涂胶轴进退|Wal kleju 1 przod/tyl
+快速溶胶光电开关|Przelacznik fotoelektryczny szybkiego topienia
+热风枪1|Pistolet na gorace powietrze 1
+直边涂胶后退|Klejenie na prosto do przodu/do tylu
+直边涂胶胶门气缸|Cylinder klejenia na prosto
+铣刀进|Frezowanie do przodu
+清洁前热风枪|Wstepne czyszczenie pistoletu na gorace powietrze
+门开关|Przełącznik drzwi
+跟踪1后退磁性开关|Czujnika naroznika 1 przod/tyl
+跟踪2后退磁性开关|Czujnika naroznika 2 przod/tyl
+跟踪3后退磁性开关|Czujnika naroznika 3 przod/tyl
+跟踪4后退磁性开关|Czujnika naroznika 4 przod/tyl
+快速溶胶液位传感器|Czujnik poziomu plynu szybkiego topnienia
+门安全锁|Blokada drzwi bezpieczenstwa
+跟踪1进退气缸|Cylinder zaokraglania naroznika 1 przod/tyl
+跟踪2进退气缸|Cylinder zaokraglania naroznika 2 przod/tyl
+跟踪3进退气缸|Cylinder zaokraglania naroznika 3 przod/tyl
+跟踪4进退气缸|Cylinder zaokraglania naroznika 4 przod/tyl
+输送机出料开关|Przelacznik rozladowania
+输送台出料光电|Czujnik fotoelektryczny rozladowania
+涂胶1送带指示灯|Swiatlo wskaxnika podawania kleju 1
+涂胶2送带指示灯|Swiatlo wskaxnika podawania kleju 2
+抛光1凸轮电机|Silnik krzywki polerowania 1
+抛光2凸轮电机|Silnik krzywki polerowania 2
+夹带气缸|Cylinder zacisku tasmy
+快速溶胶抽胶|Pompa kleju szybkiego topienia
+松带指示灯
+压力开关|Przełącznik ciśnieniowy
+跟踪3磁性开关|Przelacznik magnetyczny naroznika 3
+快速溶胶2液位探头|Sonda poziomu cieczy szybkiego topnienia 2
+电动油泵|Pompa elektryczna
+后齐头升|Ciecie tylnej koncowej czesci w gore
+刮边夹带|Chwytanie tasmy
+刮边夹带吹气|Chwytanie tasmy Blwing
+快速溶胶1液位开关|Przelacznik poziomu szybkiego topienia 1
+快速溶胶2液位开关|Przelacznik poziomu szybkiego topienia 2
+涂胶轴进|Gumowany wal
+快速胶1吹气|Szybki przedmuch kleju 1
+快速胶2吹气|Szybki przedmuch kleju 2
+夹带吹气|Uwiezione powietrze
+加胶粒电磁阀|Gumowany elektrozawor
+送带指示灯|Wskaznik podawania
+薄带换气电磁阀|Elektrozawor zmiany powietrza cienkiej tasmy
+报警蜂鸣器|Alarm dzwiekowy
+松带按钮|Przycisk poluzowania
+气动导向板|Pneumatyczna prowadnica plyty
+输送带|Przenosnik tasmowy
+铣刀安全门开关|Wylacznik zabezpieczający frez
+输送带|Przenosnik tasmowy
+前齐头2Mpa|Ciecie przedniej koncowej czesci 2 Mpa
+点动油泵
+日光灯|Lampa fluoroscencyjna
+辅助加热/加热灯管
+抛光马达
+压梁上升|Plyta dociskowa w gore
+压梁下降|Plyta dociskowa w dol
+限料气缸|Cylinder szybkiego topnienia
+送带气缸|Cylinder podawania tasmy
+截断进刀
+截断退刀
+胶门气缸|Cylinder klejacy
+前齐头下降|Ciecie przedniej koncowej czesci w dol
+后齐头下降|Ciecie koncowej czesci z tylu w dol
+刮边除尘|Odsysanie pylu ze skrobania
+刮边夹带1|Klips do skrobania tasmy 1
+刮边夹带2|Klips do skrobania tasmy 2
+喷涂|Rozpylacz
+清洁|Wyczysc
+铣刀1进|Frezowanie 1 do przodu
+铣刀2进|Frezowanie 2 do przodu
+铣刀除尘|Odciaganie pylu z frezowania
+平刮边|Skrobanie na plasko
+压贴1mm|Dociskanie 1mm
+压贴2mm|Tasma dociskania 2mm
+修边1进退|Trymer 1 przod/tyl
+修边1开关|Przelacznik trymera 1
+修边2进退|Trymer 2 przod/tyl
+修边2开关|Przelacznik trymera 2
+刮边进退|Skrobanie przod/tyl
+刮边开关|Przelacznik skrobania
+气动齐头|Pneumatyczne ciecie koncowej czesci
+开槽1进|Wygiecie 1 do przodu
+（半）开槽1升
+开槽1除尘|Wygiecie do odciagania pylu 1
+开槽2进|Wygiecie 2 do przodu
+（半）开槽2升
+开槽2除尘|Wygiecie do odciagania pylu 2
+快速溶胶气缸|Cylinder szybkiego topnienia
+开槽3进|Wygiecie 3 do przodu
+（半）开槽3升
+开槽3除尘|Wygiecie do odciagania pylu 3
+送料气缸|Cylinder podawania
+连线报警输出|Wyjscie alarmu podlaczenia
+报警灯|Alarm dzwiekowy
+带1气缸|Cylinder tasmy 1
+夹带1气缸|Cylinder zacisku tasmy 1
+带2气缸|Cylinder tasmy 2
+夹带2气缸|Cylinder zacisku tasmy 2
+带3气缸|Cylinder tasmy 3
+夹带3气缸|Cylinder zacisku tasmy 3
+带4气缸|Cylinder tasmy 4
+夹带4气缸|Cylinder zacisku tasmy 4
+送带编码器A相
+送带编码器B相
+急停开关|Przelacznik E.M.G
+输送带点动按钮|Jog przenosnika
+开始行程开关|Uruchom wylacznik krancowy
+前齐头磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci
+后齐头磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci
+后齐头接近开关|Przelacznik zblizeniowy ciecia tylnej koncowej czesci
+快速溶胶液位传感器|Czujnik poziomu plynu szybkiego topnienia
+快速溶胶磁性开关|Przelacznik magnetyczny szybkiego topienia
+无油报警|Uwolniony olej smarowy
+带1磁性开关|Przelacznik magnetyczny tasmy 1
+带2磁性开关|Przelacznik magnetyczny tasmy 2
+带3磁性开关|Przelacznik magnetyczny tasmy 3
+带4磁性开关|Przelacznik magnetyczny tasmy 4
+前齐头中磁性开关|Przelacznik magnetyczny posredniego ciecia przedniej koncowej czesci
+前齐头进退磁性开关|Przelacznik magnetyczny ciecia przedniej koncowej czesci przod/tyl
+后齐头底磁性开关|Przelacznik magnetyczny ciecia tylnej koncowej czesci w dol
+带1按钮|Przycisk tasmy 1
+带2按钮|Przycisk tasmy 2
+带3按钮|Przycisk tasmy 3
+带4按钮|Przycisk tasmy 4
+连线报警输入|Wejscie alarmowe polaczone z maszyna
+涂胶1带1磁性开关|Przelacznik magnetyczny kleju 1 tasmy 1
+涂胶1带2磁性开关|Przelacznik magnetyczny kleju 1 tasmy 2
+涂胶1带1按钮|Przycisk kleju 1 tasmy 1
+涂胶1带2按钮|Przycisk kleju 1 tasmy 2
+涂胶2带1磁性开关|Przelacznik magnetyczny kleju 2 tasmy 1
+涂胶2带2磁性开关|Przelacznik magnetyczny kleju 2 tasmy 2
+涂胶2带1按钮|Przycisk kleju 2 tasmy 1
+涂胶2带2按钮|Przycisk kleju 2 tasmy 2
+涂胶1带3磁性开关|Przelacznik magnetyczny kleju 1 tasmy 3
+涂胶1带4磁性开关|Przelacznik magnetyczny kleju 1 tasmy 4
+涂胶1带3按钮|Przycisk kleju 2 tasmy 3
+涂胶1带4按钮|Przycisk kleju 2 tasmy 4
+涂胶2带3磁性开关|Przelacznik magnetyczny kleju 2 tasmy 3
+涂胶2带4磁性开关|Przelacznik magnetyczny kleju 2 tasmy 4
+涂胶2带3按钮|Przycisk kleju 2 tasmy 3
+涂胶2带4按钮|Przycisk kleju 2 tasmy 4
+刮边上夹带|Klips do skrobania w gore
+刮边下夹带|Klips do skrobania w dol
+涂胶1夹带1气缸|Cylinder kleju 1 zacisku 1
+涂胶1夹带2气缸|Cylinder kleju 1 zacisku 2
+涂胶2夹带2气缸|Cylinder kleju 2 zacisku 2
+后齐头动作|Ciecie tylnej koncowej czesci
+修边1开关|Przelacznik trymera 1
+修边1进退|Trymer 1 przod/tyl
+修边2开关|Przelacznik trymera 2
+修边2进退|Trymer 2 przod/tyl
+涂胶1送带电机1刹车|Hamulec silnika 1 podawania tasmy kleju 1
+涂胶1送带电机2刹车|Hamulec silnika 2 podawania tasmy kleju 1
+涂胶2送带电机1刹车|Hamulec silnika 1 podawania tasmy kleju 2
+涂胶2送带电机2刹车|Hamulec silnika 2 podawania tasmy kleju 2
+开始信号|Sygnal uruchomienia
+前齐头传感器|Czujnik ciecia przedniej koncowej czesci
+后齐头传感器|Czujnik ciecia tylnej koncowej czesci
+齐头接近开关|Przelacznik zblizeniowy ciecia koncowej czesci
+跟踪1下磁性开关|Przełącznik magnetyczny naroznika/przycinania 1 w dol
+前齐头2Par|2 Par ciecia przedniej koncowej czesci
+跟踪1气缸|Cylinder zaokraglania naroznika 1
+跟踪2气缸|Cylinder zaokraglania naroznika 2
+跟踪3气缸|Cylinder zaokraglania naroznika 3
+跟踪4气缸|Cylinder zaokraglania naroznika 4
+快速溶胶1温度设置|Ustawienie termperatury szybkiego topienia 1
+涂胶1智能温控时间段设置|Ustawienie okresu czasu inteligentnej kontroli temperatury kleju 1
+涂胶|Klej
+涂胶压带伺服|Serwo prasy tasmowej kleju
+涂胶送带伺服|Serwo tasmy podawania kleju
+涂胶温度设置|Ustawienie temperatury kleju
+自动换带|Automatyczny przelacznik pasma krawedzi
+当前温度|Biezaca temperatura
+设置|Ustawienia
+直边涂胶|Klejenie prostej krawedzi
+斜边涂胶|Klejenie krawedzi skosnej
+铣刀|Frezowanie
+划线|Skrobanie pasma krawedzi
+直边涂胶温度设置|Ustawienie temperatury klejenia prostej krawedzi
+斜边涂胶温度设置|Ustawienie temperatury klejenia skosnej krawedzi
+修边刮边|Przycinanie Skrobanie
+换带确认|Potwierdzenie zmiany tasmy
+设定宽度|Ustawienie szerokosci
+当前宽度|Biezaca szerokosc
+板宽60~65mm开平刮边|Szerokosc panelu 60~65mm Skrobanie na plasko wlaczone
+胶位2:|Poziom kleju 2:
+板宽大于75mm|Szerokosc panelu wynosi wiecej niż 75mm
+板宽小于等于75mm|Szerokosc panelu nie wynosi wiecej niż 75mm
+涂胶2|Klej 2
+涂胶1|Klej 1
+溶胶2当前温度|Obecna temperatura kleju 2
+溶胶1当前温度|Obecna temperatura kleju 1
+设定位置|Ustawienie pozycji
+当前位置|Aktualna pozycja
+当前速度|Aktualna predkosc
+封边带总长|Laczna dlugosc pasma krawedzi
+米|Metr
+边|Bok
+封板总数|Ilość przedmiotu obrabianego
+自动保温温度|Temperatura automatycznego trybu czuwania
+无动作停机时间|Czas wylaczania
+保温时段|Utrzymywanie ciepla
+加热时段|Ogrzewanie
+冷却温度|Temp chłodzenia
+吹气间隔|Interwal przedmuchu
+加热温度|Temp ogrzewania
+加胶延时|Opoznienie dodawania kleju
+吹气延时|Opoznienie przedmuchiwania
+手动保温温度|Reczna temperatura w trybie czuwania
+温度下偏差|Temp.Lda
+温度上限|Temp. Hial
+温度下限|Temp. Loal
+温度上偏差|Temp. Hda
+加油间隔|Interwal dodawania oleju
+次数|Czasy
+封边带类型|Rodzaj tasmy brzegowej
+退带延时|Opoznienie posuwu tasmy do tylu
+封边带高度|Wysokosc tasmy brzegowej
+封边带颜色|Kolor pasma krawedzi
+封边带材质|Material pasma krawedzi
+封边带厚度|Grubosc pasma krawedzi
+带前设置|Przod pasma krawedzi
+带后设置|Tyl pasma krawedzi
+后预留|Rezerwa dlugosci z tylu
+前预留|Rezerwa dlugosci odchylenia
+半开槽退|Pol-odchylenie do tylu
+半开槽进|Pol-odchylenie do przodu
+文件路径:|Sciezka pliku
+条码输入:|Wprowadz kod kreskowy
+胶水类型:|Rodzaj kleju
+封边带类型:|Rodzaj tasmy brzegowej
+工艺程序:|Procedura procesu
+板厚:|Grubosc plyty
+板宽:|Szerokosc plyty
+板长:|Dlugosc plyty
+跟踪|Przycinanie naroznika
+槽长度1|Dlugosc gniazda 1
+槽长度2|Dlugosc gniazda 2
+槽长度3|Dlugosc gniazda 3
+开槽1前预留|Dlugosc rezerwowa odchylania 1 do przodu
+开槽1槽长度|Dlugosc gniazda odchylenia 1
+开槽1后预留|Dlugosc rezerwowa odchylania 1 do tylu
+开槽2前预留|Dlugosc rezerwowa odchylania 2 do przodu
+开槽2槽长度|Dlugosc gniazda odchylenia 2
+开槽2后预留|Dlugosc rezerwowa odchylania 2 do tylu
+开槽3前预留|Dlugosc rezerwowa odchylania 3 do przodu
+开槽3槽长度|Dlugosc gniazda odchylenia 3
+开槽3后预留|Dlugosc rezerwowa odchylania 3 do tylu
+当前正在加工板块计数|Liczenie aktualnie przetwarzanych paneli
+扫码自动发送|Automatyczne skanowanie Wyslij
+扫码自动添加|Automatyczne skanowanie Dodaj
+加工宽度|Szerokosc procesu
+修边刮边气动模式|Tryb pneumatyczny przycinania skrobania
+边带选择|Wybor pasma krawedzi
+跟踪模式|Tryb naroznika
+快速溶胶|Szybkie topnienie
+连线|Podlaczony
+压梁|Plyta dociskowa
+数量统计|Licznik
+其他|Inne
+涂胶2智能温控时间段设置|Ustawienie okresu czasu inteligentnej kontroli temperatury kleju 2
+快速溶胶2温度设置|Ustawienie termperatury szybkiego topienia 2
+涂胶1温度设置|Ustawienie temperatury kleju 1
+涂胶智能温控时间段设置|Ustawienie okresu czasu inteligentnej kontroli temperatury kleju
+涂胶2温度设置|Ustawienie temperatury kleju 2
+快速溶胶温度设置|Temperatura szybkiego topnienia Ustawienia
+涂胶2送带伺服|Silnik serwo podajnika tasmy
+涂胶2压带伺服|stopki serwo
+涂胶1送带伺服|Silnik serwo podajnika tasmy
+涂胶1压带伺服|stopki serwo
+黄油泵设置|Ustawienia pompy smaru
+齐头油泵设置|Ustawienie pompy oleju ciecia czesci koncowej
+修边刮边气动模式设置|Tryb pneumatyczny przycinania skrobania
+涂胶2换带|Automatyczny przelacznik opaski kleju 2
+涂胶1换带|Automatyczny przelacznik opaski kleju 1
+封边带预留设置|Zestaw nadwyzki tasmy krawedziowej
+移动伺服|Serwonapedy silnika ruchomego
+半开槽2设置|Ustawienie pol-odchylenia 2
+半开槽1设置|Ustawienie pol-odchylenia 2
+加工方式|Metoda procesu
+固定4边|Zamocuj krawedzie 4
+固定3边|Zamocuj krawedzie 3
+固定2边|Zamocuj krawedzie 2
+固定1边|Zamocuj krawedzie 1
+自动旋转|Automatyczne obracanie
+定位|Miejsce
+复位|Resetowanie
+位置校准|Korekta lokalizacji
+加热灯|Lampa grzewcza
+手动加胶|Reczne dodawanie kleju
+自动加胶|Automatyczne dodawanie kleju
+涂胶开|Klejenie wlaczone
+涂胶加热|Ogrzewanie kleju
+涂胶保温|Utrzymywanie ciepla kleju
+涂胶待机|Tryb czuwania kleju
+智能温控|Inteligentna temp. Kontrola
+封边带1|Tasma brzegowa 1
+封边带3|Tasma brzegowa 3
+封边带2|Tasma brzegowa 2
+封边带4|Tasma brzegowa 4
+快速溶胶开|Szybkie topnienie otwarte
+快速溶胶自动|Szybkie topnienie automatyczne
+快速溶胶手动|Szybkie topnienie reczne
+连线模式|Tryb podlaczony
+压梁定位|Pozycjonowanie PB
+报警复位|Reset alarmu
+清  零|Resetowanie
+开始计数|Rozpocznij liczenie
+清除数据|Wyczysc dane
+屏蔽卡带报警|Alarm oslony zablokowanej tasmy
+热风枪|Opalarka
+仿形铣刀|Skopiuj frez
+风机|Wentylator
+铣刀1慢退|Powolne frezowanie 1 do tylu
+调机模式|Tryb debugowania
+勾头|Glowica haka
+油泵点动|Jog pompy olejowej
+保存|Zapisz
+读取|Odczytaj
+松带|Luzna tasma
+参数还原|Przywracanie parametru
+参数备份|Kopia zapasowa parametru
+设置出厂值|Domysle ustawienia fabryczne
+恢复出厂值|Reset ustawien fabrycznych
+删除|Usuń
+单机模式|Jeden gracz
+加载|Obciazenie
+添加|Dodaj
+发送|Wyslij
+扫码模式|Tryb skanowania
+读入当前数值|Odczytaj biezaca wartosc
+清空累计时间|Laczny czas czyszczenia

@@ -1,0 +1,1608 @@
+﻿;Chinese-English
+查找|Search
+上一个|Prev
+保存并加载|Save and Load
+另存为|Save as
+取消|Cancel
+文件路径：|Path:
+日常维护说明|Daily Maintenance Instruction
+1、每次工作前后对设备吹灰，清理各轴导轨及齿条灰尘|1. Blow dust off the equipment before and after each work, and clean the dust on the guide rails and racks.
+2、每 3 天摇动摇杆 3 至 5 次对 Y/Z 轴进行润滑|2. Shake the rocker 3 to 5 times every 3 days and lubricate Y / Z axis.
+3、每天对设备气源处理器的空气过滤器进行排水|3. Drain the air filter of air source processor daily.
+4、设备自带的热机程序每天开机至少运行一次|4. Run the built-in heating program at least once a day when machine is started.
+5、每周一次对储气罐进行排水|5. Drain the gas tank once a week.
+6、每5-7天定期做一次钻轴清洁|6. Do a regular cleaning of drill shaft every 5-7 days.
+7、每周对未连接油管的滑块用手动黄油枪添加0#机械润滑脂|7. Add 0 # mechanical grease to the slider unconnected to oil pipe with a manual grease gun every week.
+8、气排钻每80-120个工作小时注入润滑脂，润滑脂型号(KLUBER ISOFLEX TOPAS L32N)请勿注入其它型号润滑脂|8. Fill the phneumatic drill head with grease every 80-120 working hours. Grease model (KLUBER ISOFLEX TOPAS L32N) Do not inject other models of grease.
+9、真空泵每工作500小时后在运转时向滚动轴承的两处油嘴上注入高温润滑油脂15克（KLUBER）|9. After every 500 hours of operation of the vacuum pump, 15 grams of high-temperature lubricating grease (KLUBER) needs to be injected into the two nipples of the rolling bearing during operation.
+10、禁止客户私自拆改机器, 因私自拆改或未使用原厂配件造成机器的损坏由客户自行承担责任|10. It is forbidden for the customer to dismantle and modify the machine without permission. The customer shall bear the responsibility for the damage caused by the unauthorized disassembly or the disuse of original accessories.
+警告:一切维护保养工作须在断电的状态下进行!|Warning: all maintenance work must be carried out when power off !
+对刀仪信号|Tool Setting Gauge Signal
+对刀仪极限|Tool Setting Gauge Limit
+上料起始位置|Start Position of Loading
+上料终点位置|End Position of Loading
+推料起始位置|Start Position of Pusher
+推料终点位置|End Position of Pusher
+推料限制位置|Limit Position of Pusher
+侧推位置|Position of Side Pusher
+上下料速度|Loading/Unloading Speed
+手轮模拟上限|Upper Limit of Handwheel Simulation
+推料Y轴位置|Y Position of Pusher
+Z轴换刀准备位置|Preparation Position of Y-Axis Tool Change
+Z轴换刀位置|Z-Axis Tool Change Position
+刀盘转速|Rotation Speed of Cutterhead
+Z轴对刀开始位置|Start Position of Z-Axis Tool Setting
+Z轴对刀极限位置|Limit Position of Z-Axis Tool Setting
+N工位加工负极限|Processing Negative Limit of Section N
+N工位加工正极限|Processing Positive Limit of Section N
+M工位加工负极限|Processing Negative Limit of Section M
+M工位加工正极限|Processing Positive Limit of Section M
+M工位X偏移值|X Offset of Section M
+M工位Y偏移值|Y Offset of Section M
+M工位Z偏移值|Z Offset of Section M
+N工位除尘起始位置|Start Position of Section N Dedusting
+N工位除尘终点位置|End Position of Section N Dedusting
+M工位除尘起点位置|Start Position of Section M Dedusting
+M工位除尘终点位置|End Position of Section M Dedusting
+对刀仪机械坐标X|Tool Setting Gauge X
+对刀仪机械坐标Y|Tool Setting Gauge Y
+小板侧推位置|Position of Small Panel Pusher
+小板上料终点位置|End Position of Small Panel Loader
+最大抓料次数|Max Loading Times
+二次抓料位置|Position of 2nd Loading
+板长10尺上料终点位置|End Position of Loading 10-Feet-Length Panel
+板长9尺上料终点位置|End Position of Loading 9-Feet-Length Panel
+板长8尺上料终点位置|End Position of Loading 8-Feet-Length Panel
+小板侧推最大行程时间|Max Stroke Time of Small Panel Pusher
+预热提醒间隔时间|Warm-up Remind Interval
+预热阶段1时间|Time of Preheating Stage 1
+预热阶段2时间|Time of Preheating Stage 2
+预热阶段3时间|Time of Preheating Stage 3
+油泵加油间隔|Lubrication Interval
+油泵加油时间|Lubrication Duration
+抓料破真空持续时间|Vacuum Break Duration in Loading
+压辊1下负限位|Down-Negative Limit of Pressure Roller 1
+压辊1下正限位|Down-Positive Limit of Pressure Roller 1
+压辊2下负限位|Down-Negative Limit of Pressure Roller 2
+压辊2下正限位|Down-Positive Limit of Pressure Roller 2
+外部偏移|External Offset
+预扫时, 遇到宏是否通知用户处理|When pre-scanning, whether to notify the user when encountering a macro
+子程序#变量内容是否保存, 0: 每次执行SNC都会被清除, 1: 保存|Whether to save all # variables of the subroutine. 0: All # variables will be cleared when SNC is executed, 1: Save. (Default)
+主、子程序加工平面设定互不干扰, 0: 关闭, 1: 开启|Allow the main program and subroutine to use different working planes. 0: Disable (Default). 1: Enable
+允许刀径补正中, 可出现M码, 0: 关闭, 1: 开启|During the tool radius correction, M code can appear, 0: off, 1: on
+开启符号功能, 从符号之后的行数开始加工, 0: 关闭, 1: 开启|Enable symbol function, start processing from the number of lines after the symbol, 0: disable, 1: enable
+宏工作平面设定, 范围54 ~ 59, 预设为54|Macro work plane setting, range 54-59, default is 54
+SNC在非加工时, 也确认软、硬件极限及驱动器异常, 并产生SNC错误信息, 0: 关闭, 1: 开启|When the SNC is not being processed, it also confirms that the software and hardware limits and the driver are abnormal, and generates SNC error messages. 0: Off, 1: On
+加工时, 忽略NC码中进给率设定, 0:关闭, 1:开启|During processing, the feedrate setting in the NC code is ignored, 0: off, 1: on
+缩放使用IJK时的比例, 0: 0.001 (预设), 1: 0.00001|Set the position resolution of the part program instructions. 0: 0.001 mm (Default) 1: 0.00001 mm.
+预扫线段过短的处理机制, 0: 警告 (预设), 1: 错误|Set the processing mechanism when the G01 distance command is too short to process in one communication cycle during pre-scanning. 0: warning (Default) 1: error.
+运动命令发送之后, 要等待多少时间, 让马达走到目标位置, 默认为0.001秒|How long to wait after the motion command is sent to let the motor go to the target position, the default is 0.001 seconds
+工作平面设定, 范围54 ~ 59, 预设为54|Working plane setting, range 54-59, default is 54
+开启法线追随功能, 0: 关闭, 1: 使用GCode, 2: 自动追随|Enable the tangential control function. 0: disable the tangential control function. 1: Enable the tangential control function by G code “G41.1 or G42.1”. 2: Enable the auto tangential control function for entire part-program.
+自动法线追随第一轴向|First Axial Direction for Auto Tangential Control
+自动法线追随第二轴向|Second Axial Direction for Auto Tangential Control
+法线追随轴, 1 ~ 9 => X~Z、A~C、U~W|Tangential Control Axis, 1-9 => X-Z, A-C, U-W
+法线追随单位作用长度, 默认单位长度: 0.001|Tangential Control Unit Action Length, Default Unit Length: 0.001
+法线追随速度|Tangential Control Speed
+将Motion指令写入档案之中, 路径C:\motion_record.txt与C:\param.txt|Write Motion command to the file, the path C: \ motion_record.txt and C: \ param.txt
+Dump Log 档案记录格式|Dump Log File Record Format
+记录轴向信息, 路径C:\dda_cmd_record.txt|Record axial direction information, path C: \ dda_cmd_record.txt
+是否开启速度限制功能, 0: 关闭, 1: 开启, 2: 开启并使用G00速度限制|Whether to enable the speed limit function, 0: disable, 1: enable, 2: enable and use G00 speed limit
+X轴G00速度限制, 当速度限制功能=2时有效|X-axis G00 speed limit, effective when speed limit function = 2
+Y轴G00速度限制, 当速度限制功能=2时有效|Y-axis G00 speed limit, effective when speed limit function = 2
+Z轴G00速度限制, 当速度限制功能=2时有效|Z axis G00 speed limit, effective when speed limit function = 2
+A轴G00速度限制, 当速度限制功能=2时有效|A axis G00 speed limit, effective when speed limit function = 2
+B轴G00速度限制, 当速度限制功能=2时有效|B axis G00 speed limit, effective when speed limit function = 2
+C轴G00速度限制, 当速度限制功能=2时有效|C axis G00 speed limit, effective when speed limit function = 2
+U轴G00速度限制, 当速度限制功能=2时有效|U axis G00 speed limit, effective when speed limit function = 2
+V轴G00速度限制, 当速度限制功能=2时有效|V axis G00 speed limit, effective when speed limit function = 2
+W轴G00速度限制, 当速度限制功能=2时有效|W axis G00 speed limit, effective when speed limit function = 2
+X轴G01速度限制, 当速度限制功能=1或2时有效|X-axis G01 speed limit, effective when speed limit function = 1 or 2
+Y轴G01速度限制, 当速度限制功能=1或2时有效|Y-axis G01 speed limit, effective when speed limit function = 1 or 2
+Z轴G01速度限制, 当速度限制功能=1或2时有效|Z axis G01 speed limit, effective when speed limit function = 1 or 2
+A轴G01速度限制, 当速度限制功能=1或2时有效|A axis G01 speed limit, effective when speed limit function = 1 or 2
+B轴G01速度限制, 当速度限制功能=1或2时有效|B axis G01 speed limit, effective when speed limit function = 1 or 2
+C轴G01速度限制, 当速度限制功能=1或2时有效|C axis G01 speed limit, effective when speed limit function = 1 or 2
+U轴G01速度限制, 当速度限制功能=1或2时有效|U axis G01 speed limit, effective when speed limit function = 1 or 2
+V轴G01速度限制, 当速度限制功能=1或2时有效|V axis G01 speed limit, effective when speed limit function = 1 or 2
+W轴G01速度限制, 当速度限制功能=1或2时有效|W axis G01 speed limit, effective when speed limit function = 1 or 2
+G01上限进给速度|G01 Feed Speed Upper Limit
+G02、G03上限进给速度|G02, G03 Feed Speed Upper Limit
+G01默认进给速度, 无设定则使用'G01上限进给速度'|G01 default feed speed, if not set, use 'G01 upper limit feed speed'
+G02、G03默认进给速度, 无设定则使用'G02、G03上限进给速度'|G02, G03 default feed speed, if not set, use 'G02, G03 upper limit feed speed'
+加减速控制单位, 0:时间, 1:加速度|Acceleration / deceleration control unit, 0: time, 1: acceleration
+在SNC下达SNC_Is_Giveup时有效, Sd_Stop减速参数|Effective when SNC issues SNC_Is_Giveup, Sd_Stop deceleration parameter
+设定初始速度|Set Initial Speed
+改变进给率比率加减速时间, 范围0.1~10秒|Change the feed rate ratio acceleration / deceleration time, the range is 0.1-10 seconds
+X轴不走插补的G00进给率, 默认值6000|G00 feedrate of X-axis without interpolation, default value is 6000
+Y轴不走插补的G00进给率, 默认值6000|G00 feedrate of Y-axis without interpolation, default value is 6000
+Z轴不走插补的G00进给率, 默认值6000|G00 feedrate of Z axis without interpolation, default value is 6000
+A轴不走插补的G00进给率, 默认值6000|G00 feedrate of A axis without interpolation, default value is 6000
+B轴不走插补的G00进给率, 默认值6000|G00 feedrate of B axis without interpolation, default value is 6000
+C轴不走插补的G00进给率, 默认值6000|G00 feedrate of C axis without interpolation, default value is 6000
+U轴不走插补的G00进给率, 默认值6000|G00 feedrate of U axis without interpolation, default value is 6000
+V轴不走插补的G00进给率, 默认值6000|G00 feedrate of V axis without interpolation, default value is 6000
+W轴不走插补的G00进给率, 默认值6000|G00 feedrate of W axis without interpolation, default value is 6000
+X轴不走插补的G00加速参数|G00 Acceleration Parameters without X Sxis Interpolation
+Y轴不走插补的G00加速参数|G00 Acceleration Parameters without Y Sxis Interpolation
+Z轴不走插补的G00加速参数|G00 Acceleration Parameters without Z Sxis Interpolation
+A轴不走插补的G00加速参数|G00 Acceleration Parameters without A Sxis Interpolation
+B轴不走插补的G00加速参数|G00 Acceleration Parameters without B Sxis Interpolation
+C轴不走插补的G00加速参数|G00 Acceleration Parameters without C Sxis Interpolation
+U轴不走插补的G00加速参数|G00 Acceleration Parameters without U Sxis Interpolation
+V轴不走插补的G00加速参数|G00 Acceleration Parameters without V Sxis Interpolation
+W轴不走插补的G00加速参数|G00 Acceleration Parameters without W Sxis Interpolation
+X轴不走插补的G00减速参数|G00 Deceleration Parameters without X-axis Interpolation
+Y轴不走插补的G00减速参数|G00 Deceleration Parameters without Y-axis Interpolation
+Z轴不走插补的G00减速参数|G00 Deceleration Parameters without Z Axis Interpolation
+A轴不走插补的G00减速参数|G00 Deceleration Parameters without A Axis Interpolation
+B轴不走插补的G00减速参数|G00 Deceleration Parameters without B Axis Interpolation
+C轴不走插补的G00减速参数|G00 Deceleration Parameters without C Axis Interpolation
+U轴不走插补的G00减速参数|G00 Deceleration Parameters without U Axis Interpolation
+V轴不走插补的G00减速参数|G00 Deceleration Parameters without V Axis Interpolation
+W轴不走插补的G00减速参数|G00 Deceleration Parameters without W Axis Interpolation
+轴不走插补的G00进给率, 默认值6000|G00 Feedrate for Axis without Interpolation, Default Value 6000
+走插补的G00加速参数|G00 Acceleration Parameters with Interpolation
+走插补的G00减速参数|G00 Acceleration Parameters with Interpolation
+X轴G01加减速|X-Axis G01 Acceleration and Deceleration
+Y轴G01加减速|Y-Axis G01 Acceleration and Deceleration
+Z轴G01加减速|Z-Axis G01 Acceleration and Deceleration
+A轴G01加减速|A-Axis G01 Acceleration and Deceleration
+B轴G01加减速|B-Axis G01 Acceleration and Deceleration
+C轴G01加减速|C-Axis G01 Acceleration and Deceleration
+U轴G01加减速|U-Axis G01 Acceleration and Deceleration
+V轴G01加减速|V-Axis G01 Acceleration and Deceleration
+W轴G01加减速|W-Axis G01 Acceleration and Deceleration
+设定连续切削允许误差|Set Allowable Error of Continuous Cutting
+设定圆弧切削允许误差|Set Allowable Error of Arc Cutting
+刀径补正角度判定, 遇导角使用圆弧或是直线|Judgment of tool radius correction angle, use arc or straight line for lead angles
+圆弧切削参考半径|Reference Radius of Arc Cutting
+圆弧切削参考速度|Reference Speed of Arc Cutting
+弯角降速参考速度|Reference Speed of Corner Deceleration
+前加减 S 型曲线时间常数 |Pre-Accel/Decel S-Curve Time Constant
+后加减加速时间常数|Post-Accel/Decel Acceleration Time Constant
+后加减 S 型曲线时间常数|Post-Accel/Decel S-Curve Time Constant
+使用轴数|Number of Axes Used
+卡号|DMCNET motion card number or EtherCAT master number.
+X轴站号|X-Axis Station Number
+Y轴站号|Y-Axis Station Number
+Z轴站号|Z-Axis Station Number
+A轴站号|A-Axis Station Number
+B轴站号|B-Axis Station Number
+C轴站号|C-Axis Station Number
+U轴站号|U-Axis Station Number
+V轴站号|V-Axis Station Number
+W轴站号|W-Axis Station Number
+当前主轴刀号|Current Spindle Tool Number
+主轴刀, 第一把刀起始刀号|Spindle Tool, Starting Number of the First Tool
+主轴刀数|Qantity of Spindle Tools
+垂直钻, 第一把刀起始刀号|Vertical Drill, Starting Number of the First Drill
+垂直钻刀数|Qantity of Vertical Drills
+水平钻, 第一把刀起始刀号|Horizontal Drill, Starting Number of the First Drill
+水平钻刀数|Qantity of Horizontal Drills
+锯片, 第一把刀起始刀号|Saw Blade, Starting Number of the First Blade
+锯片刀数|Qantity of Saw Blades
+对刀仪AB接点型态; 0 : B接, 1 : A接|Contact Types of Tool Setting Gauge; 0 : B type, 1 : A type
+对刀仪与加工平面的Z轴距离|Z Distance from Work Plane to the Surface of Tool Setting Gauge
+对刀初始位置X轴机械坐标|X-Axis Mechanical Coordinate of the Initial Position of Tool Setting Gauge
+对刀初始位置Y轴机械坐标|Y-Axis Mechanical Coordinate of the Initial Position of Tool Setting Gauge
+对刀初始位置Z轴机械坐标|Z-Axis Mechanical Coordinate of the Initial Position of Tool Setting Gauge
+对刀第一段下降速度|Falling Speed of First Section Tool Setting
+对刀第二段上升速度|Rising Speed of Second Section Tool Setting
+对刀第二段下降速度|Falling Speed of Second Section Tool Setting
+对刀次数, 对刀值为加总取平均后的值|Tool Setting Times. The tool-measure value is the average of all measure values
+Z轴背隙补偿功能|Z-Axis Backlash Compensation Function
+Z轴背隙数值|Z-Axis Backlash Value
+Z轴背隙补正方向, 1: 正向不补 (预设), -1: 负向不补|Z Axis Backlash Correction Direction, 1: positive direction does not compensate (default), -1: negative direction does not compensate
+Z轴背隙补正速度|Z-Axis Backlash Correction Speed
+Z{0}轴背隙补正加减速|Z {0} Shaft Backlash Correction Acceleration / Deceleration
+操作员密码|Operator Password
+输入|Input
+输入密码|Enter Password
+密码错误次数达到5次, 程序已锁定, 请联系管理员|Password error occurs for 5 times, the program is locked, please contact the administrator
+提示|Tips
+确定要进行|Sure to proceed
+提示：预热时禁止使用大成型刀，请使用小刀|Note: It is forbidden to use a large forming tool during preheating, please use a small one
+确定要关闭软件吗|Are you sure to close the software
+保养说明|Maintenance Instruction
+更改上料机配置成功, 重新打开程序生效!|Changed the configuration of feeder successfully, please restart the program to enable!
+更改语言设置成功, 重新打开程序生效!|Changed the language successfully, please restart the program to enable!
+更改机型设置成功, 重新打开程序生效!|Changed the model successfully, please restart the program to enable!
+更改单位设置成功, 重新打开程序生效!|Changed the unit successfully, please restart the program to enable!
+数据备份成功!文件路径为:|Data backup succeeded! File path is:
+输入数值|Enter Value
+数据恢复成功,重新打开程序生效!|Data recovery succeeded, please restart the program to enable!
+没有检测到有效文件！请检查文件是否被删除或重命名！|No valid files detected! Please check if the file was deleted or renamed!
+没有检测到加密狗，请检查加密狗是否已插入|Dongle is not detected, Please check if dongle is inserted.
+循环加工任务已完成|Circular processing is completed
+列表中所有加工任务已完成|All the processing tasks in the list are completed
+当前文件不存在,请检查路径是否正确|Current file is not existing, please check if the path is correct
+请选择路径|Please select a path
+导出成功|Export succeeded
+当前语言包无法创建为新的语言包|The current language pack cannot be created as a new one
+是|Yes
+否|No
+确认|Confirm
+参数恢复完毕|Parameter Recovery Completed
+正在执行, 请耐心等待|Running, please be patient
+无法连接IMP, 开始离线模式启动|IMP can't be connected, start offline mode
+系统无法连接IMP|System cannot connect to IMP
+系统文件丢失|System files are missing
+贴标机无法连接|Labeler cannot be connected
+清理多少天之前的历史记录|How many days ago to clear the history of
+清理完毕|Cleared
+请输入整数|Please enter an integer
+编辑|Edit
+正常运行|Running
+未连接|Not connected
+正在加工|Processing
+服务器未启动|Server is not started
+机器已锁定, 请联系供应商|Machine is locked, please contact supplier
+密码错误|PASSWORD ERROR
+插入|Insert
+解锁成功|Unlocked successfully
+数据无法保存|Data cannot be saved
+无法读取时间|Unable to read time
+输入解锁密码 第{0}期|Enter unlock password Term{0}
+输入进入密码|Enter access password
+系统离线|System is offline
+离线模式|Offline Mode
+行数输入不正确, 请重新输入|Row NO is incorrect. Please re-enter
+系统报警|SYS Alarm
+名称|Name
+参数|Parameter
+数值|Value
+条码|Barcode
+创建时间|Create Time
+开始时间|Start Time
+时|Hour
+分|Minute
+序号|NO
+参考保养项目|Prefer to maintenance item
+参考保养周期|Prefer to maintenance cycle
+当前设定时间|Current Set Time
+最后保养日期|Last Maintenance Date
+剩余时间|Remaining Time
+更新最后保养时间|Update last maintenance time
+更新|Update
+项目|Item
+是否已保养|Whether maintained or not
+正在编辑中|Editing
+加工|Process
+手动|Manual
+监控|Monitor
+报警|Alarm
+保养|Maintenance
+记录|Record
+机构参数|Unit Parameters
+基本参数2|Basic Parameters 2
+用户参数|User Parameters
+刀具参数|Tool Parameters
+排钻设置|Drilling Settings
+工件坐标|Workpiece Coordinate
+对刀仪设置|Tool Setting Gauge Setting
+系统参数1|System Parameter 1
+系统参数2|System Parameter 2
+系统参数3|System Parameter 3
+报警记录|Alarm Record
+开关记录|On/Off Record
+操作记录|Operation Record
+加工记录|Process Record
+保养记录|Maintenance Record
+开发人员|Developer
+调试人员|Debugging Personnel
+管理人员|Management Personnel
+生产人员|Production Personnel
+全屏切换|Full Screen
+登录|Login
+服务器连接|Server Connection
+日常维护提示|Daily Maintenance Tips
+PLC连接|PLC Connection
+板选择|Board Selection
+参数名称|Param Name
+当前参数值|Current Value
+设置参数值|Set Value
+刀长|Tool Length
+刀径|Tool Radius
+X轴偏移值|X-axis Offset
+Y轴偏移值|Y-axis Offset
+Z轴偏移值|Z-axis Offset
+局部坐标系统设定|Partial Coordinate System Setting
+X轴|X-axis
+Y轴|Y-axis
+Z轴|Z-axis
+文件|File
+工位|Section
+次数|Times
+有贴标|Labeled
+贴标状态|Labeling Status
+加工状态|Processing Status
+刷新|Refresh
+清理记录|Clear Record
+扫码枪设置|Scanner Setting
+串口号|COM Port
+波特率|Baud Rate
+校验位|Parity Bit
+数据位|Data Bit
+停止位|Stop Bit
+服务器地址|Server Address
+机器序号|Machine NO
+监听地址|Listening Address
+语言|Language
+导出路径|Export Path
+生成语言包|Generate Language Pack
+确定|OK
+检测|Test
+清空|Clear
+返回|Return
+机器型号:|Machine Model:
+机型设置|Model Setting
+锁机|Machine Lock
+锁机密码|Lock Password
+解锁密码|Unlock Password
+再次输入|Re-enter
+锁机时间（天）|Lock Time (Day)
+日|Day
+月|Month
+年|Year
+时间校准|Time Calibration
+进入密码|Enter Password
+当前日期|Current Date
+每期|Per Term
+总|Sum
+期|Term
+无|No
+有|Yes
+后靠齐|Rear Alignment
+前靠齐|Front Alignment
+英威腾|INVT
+汇川|Inovance
+定位机构|Positioning Unit
+左右导向|Left and Right Guide Bars
+定位机构+左右导向|Positioning Unit + Guide Bars
+输入模块|Input Module
+IO接口|IO Interface
+无主轴|No Spindle
+有主轴|Splinde Existing
+无刀库|No Tool Magazine
+有刀库|Tool Magazine Existing
+有抓料配置|Loader Configured
+有推料配置|Pusher Configured
+非标上料机|Non-Standard Loader
+标准上料机|Standard Loader
+标准贴标机|Standard Labeler
+非标下料机|Nont-Standard Unloader
+标准下料机|Standard Unloader
+不开启功能|Disable Function
+开启自动启动加工功能|Enable Auto Start Processing Function
+一带动二|One Drive Two
+一带动四|One Drive Four
+不提醒|Don't remind
+每天第一次开机|First time to start every day
+停机一段时间后|After a period of downtime
+10英尺|10 Feet
+9英尺|9 Feet
+8英尺|8 Feet
+7英尺|7 Feet
+5-6英尺|5-6 Feet
+4英尺|4 Feet
+6*12板|Panel 6x12
+4*12板|Panel 4x12
+4*8板|Panel 4x8
+5*10板|Panel 5*10
+4*9板|Panel 4*9
+规格|Specification
+公制|Metric
+英制|Imperial
+机械手动控制|Manual Control of Machine
+软件手动控制|Manual Control of Software
+停止|Stop
+暂停|Pause
+执行中|Running
+返回异常|Return Error
+准备中|Preparing
+贴标中|Labeling
+送板中|Feeding
+完成贴标|Labeling finished
+完成送料|Feeding finished
+加工完成|Processing finished
+加工中|Processing
+就绪|Ready
+繁忙|Busy
+停止动作|Stop Action
+复位动作|Reset Action
+检查启动条件|Check Start Conditions
+异常|Failure
+加载中|Loading
+自动|Auto
+手轮|MPG
+常闭|Normal Close
+常开|Normal Open
+三色状态指示灯|Three-Color Status Light
+按钮状态指示灯|Button Status Light
+换刀任务进行中......|Changing Tool......
+对刀任务进行中......|Setting Tool......
+上料任务进行中......|Loading......
+下料任务进行中......|Unloading......
+上下料任务进行中......|Loading and Unloading......
+预热任务进行中......|Preheating......
+X手动速度增加|X Manual Speed Increase
+正常|Normal
+返工|Rework
+维修|Repair
+报警序号|Alarm NO
+报警内容|Alarm Message
+结束时间|End Time
+报警时间(秒)|Alarm Time(Sec)
+打开时间|Open Time
+关闭时间|Close Time
+运行时间(分)|Running Time(Min)
+操作|Operation
+操作时间|Operation Time
+操作类型|Operation Type
+加工耗时(秒)|Processing Time(Sec)
+代码总行|Total Number of Code Rows
+文件名称|File Name
+文件路径|File Path
+(1)检查调压过滤器①和过滤器②排水是否正常(每三天一次)|(1)Check if pressure regulating filter① and filter② drain normally (once every 3 days)
+注意,当环境温度低于0℃时,杯内水可能结冰导致不能正常自动排水|Attention, when the environment temperature is lower than 0℃, water in the cup might freeze, which leads to abnomal auto-drainage.
+(2)对给油器③添加32#抗磨液压油，当油量低于1/4时请添加至3/4|(2)Add 32# antiwear hydraulic oil to oil feeder③, fill up to 3/4 when oil level is less than 1/4
+拧动球阀对储气罐进行排水,排完后关闭球阀(每周一次)|Twist the ball valve to drain water from the gas tank, after that tighten the ball vavle (once every week)
+注意,当环境温度低于0℃时,罐内水可能结冰导致不能正常排水|Attention, when the environment temperature is lower than 0℃, water in the cup might freeze, which leads to abnomal drainage.
+将配电柜内部和风扇过滤网上的灰尘清理干净(每周一次)|Clean off the dust on the filter screen in electrical cabinet and fan (once every week)
+(1)打开上方真空泵滤芯的盖板,取出滤芯①|(1)Open the cover plate on the filter screen of vacuum pump on the top and take out the filter screen①
+将滤芯上的灰尘清理干净(每周一次)|Clean of the dust on the filter screen (once every week)
+(2)打开侧面真空泵滤芯的盖板,出滤芯②|(2)Open the cover plate on the filter screen of vacuum pump on the side and take out the filter screen②
+将滤芯上的灰尘清理干净(每三个月一次)|Clean of the dust on the filter screen (once every 3 months)
+(3)若滤芯有损坏，请及时更换|(3)If the filter screen of fan is damaged, please replace it immediately.
+(1)每日随时保持刀柄锥面和电主轴夹刀锥面完全清洁|(1)Keep the conical surface of shank and that of tool holder of spindle completely clean everyday
+在每个工作日结束时使用一块干净的软布清洁这些部件|Clean these parts with a clean cloth after work everyday
+(2)使用一块蘸有乙醇的干净的软布仔细清洁|(2)Clean carefully with a cloth dipped by alcohole
+电主轴夹刀锥面和刀柄锥面(每两周一次)|The conical surface of tool holder of spindle and that of shank (once every 2 weeks)
+手动黄油泵添加0#机械润滑脂|Fill the grease pump with 0# mechanical grease
+摇动摇杆3至5次对Y/Z轴分别进行润滑(每三天一次)|Shake the rocker 3 to 5 times and lubricate Y/Z-axis (once every 3 days)
+向排钻油嘴上注入润滑脂(KLUBER ISOFLEX TOPAS L32N)2.5克|Inject 2.5g of grease(KLUBER ISOFLEX TOPAS L32N) into the nozzles of drill head
+(机器每工作100小时一次)|(Once every 100 working hours)
+向两个排钻滑块的油嘴上分别注入0#机械润滑脂0.1g(每三天一次)|Inject 0.1g 0# mechanical grease into the nozzles of two sliders of drill head (once every 3 days)
+向两个刀库滑块的油嘴上分别注入0#机械润滑脂0.1g(每三天一次)|Inject 0.1g 0# mechanical grease into the nozzles of two sliders of tool magazine (once every 3 days)
+机器工作3000小时后，检查滑片宽度|After working for 3000 hours, check the width of slip sheet
+(1)若滑片宽度小于41mm,则需更换滑片|(1)If the width of slip sheet is less than 41mm, replace the slip sheet
+(2)若滑片宽度大于41mm,则需缩短检查时间|(2)if the width of slip sheet is more than 41mm, shorten the checking time
+以确保及时更换宽度小于41mm的滑片|Ensure to replace the slip sheet with a width less than 41mm
+向真空泵的两处油嘴上分别注入高温润滑油脂10克(KLUBER)|Inject 10g high temperature grease(KLUBER) into the two nozzles of vacuum pump
+部分项目已到保养日期，请前往保养页面进行保养|The maintenance date of some items is come, please go to maintenance page
+真空泵过载检测|Overload Detection of Vacuum Pump
+气源处理器的空气过滤器排水，雾化器加注32#抗磨压油|Drain the air filter of air source, fill 32# antiwear hydraulic oil into mistorizer
+天|Day
+储气罐排水|Gas Tank Draining
+配电柜与风扇滤网清理|Cleaning of the Filter Screens of Electrical Cabinet and Fan
+真空泵滤芯清理|Cleaning of the Filter Screen of Vacuum Pump
+主轴防锈,刀柄清洁|Spindle Rust Proof, Clean Shank
+手动黄油泵加注|Oil Injection for Manual Grease Pump
+钻包高温润滑脂加注|High Temperature Grease Injection for Drill Head
+小时|Hour
+钻包滑块润滑脂加注|Grease Injection for Drill Head Slider
+刀库滑块润滑脂加注|Grease Injection for Tool Changer Slider
+真空泵石墨片宽度检查|Width Inspection for the Graphite Flake of Vacuum Pump
+真空泵高温润滑油脂加注|High Temperature Grease Injection for Vacuum Pump
+循环剩余次数|Remaining Times of Cycle
+循环完成次数|Completion Times of Cycle
+循环次数|Cycle Times
+进给速率|Feed Speed
+进给倍率|Feed Ratio
+转速倍率|Rotation Speed Ratio
+主轴转速|Spindle Speed
+坐标平面|Coordinate Plane
+空闲|Idle
+贴标机状态|Labeler Status
+加工时间|Process Time
+SNC警报|SNC Alert
+SNC状态|SNC Status
+钻头号|Drill NO
+系统状态|System Status
+剩余坐标|Remaining Coordinate
+机械坐标|Mechanical Coordinate
+轴号|Shaft NO
+当前刀号|Current Tool NO
+当前行/总行|Current Row/Total Number of Rows
+坐标信息|Coordinate Info
+贴标机规格|Labeler Specification
+主轴|Spindle
+主轴4速度|Spindle 4 Speed
+主轴3速度|Spindle 3 Speed
+主轴1速度|Spindle 1 Speed
+主轴2速度|Spindle 2 Speed
+Z手动速度|Z Manual Speed
+Y手动速度|Y Manual Speed
+X手动速度|X Manual Speed
+状态指示灯|Status Light
+排钻真空泵过载检测|Overload Detection of Drill Head Vacuum Pump
+真空区操作方式|Vacuum Zone Operation Method
+上料靠齐方式|Loading Alignment Method
+小板侧推配置|Configuration of Small Panel Pusher
+预热提醒方式|Preheat Remind Method
+贴标机机型|Labeler Model
+英尺选择2|Foot Selection 2
+英尺选择1|Foot Selection 1
+压辊配置|Roller Configuration
+手轮接口|MPG Port
+抓料吸真空组|Loader Vacuum Suction Group
+真空泵数量|QTY of Vacuum Pumps
+主轴4最大转速|Max Speed of Spindle 4
+排钻启动检测|Drill Head Start Detection
+定位机构配置|Positioning Unit Configuration
+主轴4最大频率|Max Frequency of Spindle 4
+安全门配置|Safety Door Configuration
+安全门锁配置|Safety Door Lock Configuration
+主轴3最大转速|Max Speed of Spindle 3
+主轴3最大频率|Max Frequency of Spindle 3
+主轴2最大转速|Max Speed of Spindle 2
+主轴2最大频率|Max Frequency of Spindle 2
+变频器品牌|Inverter Brand
+上料装置|Loader
+主轴1最大转速|Max Speed of Spindle 1
+主轴1最大频率|Max Frequency of Spindle 1
+变频器带动主轴方式|Inverter-Drive-Spindle Mode
+下料装置|Unloader
+连续自动启动|Continuous Auto Start
+上料机配置|Loader Configuration
+下料机配置|Unloader Configuration
+编辑器路径|Editor Path
+单位切换|Unit Switching
+机型编码|Model Code
+机型选择|Model Selection
+刀库加速时间|Acceleration Time of Tool Magazine
+刀库轴号|Shaft NO of Tool Magazine
+刀库减速时间|Deceleration Time of Tool Magazine
+刀库轴速度|Shaft Speed of Tool Magazine
+回工件原点速度|Homing Speed
+负软极限|Negative Soft Limit
+正软极限|Positive Soft Limit
+减速时间|Deceleration Time
+归零速度|Zero Speed
+加速时间|Acceleration Time
+开料X轴|Process X-Axis
+开料Z轴|Process Z-Axis
+开料Y轴|Process Y-Axis
+跳过预览|Skip Preview
+跳过预扫|Skip Prescan
+载入目录所有文件|Load All Files in the Directory
+对刀|Tool Setting
+循环加工|Cycle Processing
+自动启动|Auto Start
+删除已加工文件|Delete Processed Files
+8尺板|8-feet Panel
+9尺板|9-feet Panel
+开启点击取反|Enable Click Inverse
+加工设置|Process Setting
+状态栏|Status Bar
+其他|Other
+加工操作|Process Operations
+手动操作|Manual Operation
+主轴设置|Spindle Setting
+刀库设置|Tool Magazine Setting
+开料设置|Nesting Setting
+吸真空区操作|Vacuum Zone Operation
+机器配置参数|Machine Configuration Parameters
+系统配置|SysConfig
+伺服轴号软极限配置|Soft Limit Configuration of Servo Shaft NO
+退出登录|Logout
+关闭|Close
+最小化|Minimize
+解锁|Unlock
+创建新的语言包|Create A New Language Pack
+跳过上下料|Skip Loading/Unloading
+手动上料|Manual Loading
+手动上下料|Manual Loading/Unloading
+手动下料|Manual Unloading
+毛刷升降|Brush Up/Down
+预热|Warm Up
+手轮模拟|Handwheel Simulation
+压辊|Pressure Roller
+真空总控|Vacuum
+真空泵|Vacuum Pump
+跳过检测|Skip Detection
+M真空总控|M Vacuum
+不贴标上料|Loading without Labeling
+启动贴标|Enable Labeling
+自动模式|Auto
+复位|Reset
+跳行|Skip Row
+启动|Start
+下一步|Next
+打开|Open
+预扫|Prescan
+断点|Continue
+单步|Step by Step
+油泵加油|Fuel Oil Pump
+安全门锁|Safety Door Lock
+小板侧推推出|Small Panel Pusher Forward
+小板侧推降|Small Panel Pusher down
+右导向升|Right Guide up
+左导向升|Left Guide down
+Y侧靠气缸|Y Side Aligner Cylinder
+X侧靠气缸|X Side Aligner Cylinder
+抓料吸附|Loader Adsorption
+抓料降|Loader down
+Y定位气缸|Y Positioning Cylinder
+X定位气缸|X Positioning Cylinder
+推料降|Pusher down
+排钻启动|Drill Head Start
+所有排钻下|All down
+钻包下|Drill Head down
+所有排钻上|All up
+排钻5|Drill Head 5
+排钻1|Drill Head 1
+排钻9|Drill Head 9
+排钻2|Drill Head 2
+排钻8|Drill Head 8
+排钻3|Drill Head 3
+排钻7|Drill Head 7
+排钻4|Drill Head 4
+排钻6|Drill Head 6
+夹刀|Clamp
+开启松刀夹刀功能|Enable Clamp/Unclamp Function
+松刀|Unclamp
+反转|Backward
+正转|Forward
+刀柄吹气|Shank Blow
+刀库推出|Tool Magazine Forward
+设为当前刀号|Set as Current Tool NO
+换刀|Change Tool
+刀库标零|Tool Magazine Zero
+转到|Turn to
+刀库反转|Tool Magazine Backward
+刀库正转|Tool Magazine Forward
+校正原点|Correct Origin
+(三轴)开料回零|(Three Axes)Home
+取消校正|Cancel Correction
+X矫正|X Correction
+Y矫正|Y Correction
+Z矫正|Z Correction
+Z轴回零|Z Home
+Y轴回零|Y Home
+X轴回零|X Home
+吸真空区4|Vacuum Area 4
+吸真空区5|Vacuum Area 5
+吸真空区6|Vacuum Area 6
+吸真空区3|Vacuum Area 3
+吸真空区2|Vacuum Area 2
+吸真空区1|Vacuum Area 1
+数据恢复|Data Recovery
+数据备份|Data Backup
+恢复默认|Restore Defaults
+选择路径|Choose a Path
+紧急停止|EMG Stop
+开料X轴正向软极限|X+ Soft Limit
+开料X轴负向软极限|X- Soft Limit
+开料X轴正向极限|X+ Limit
+开料X轴负向极限|X- Limit
+开料X轴异常|X-Axis Error
+开料X轴低电压|X-Axis Low Voltage
+开料X轴过电压|X-Axis Over Voltage
+开料X轴过负荷|X-Axis Overload
+开料X轴位置误差过大|X-Axis Position Error is Excessive
+开料Y轴正向软极限|Y+ Soft Limit
+开料Y轴负向软极限|Y- Soft Limit
+开料Y轴正向极限|Y+ Limit
+开料Y轴负向极限|Y- Limit
+开料Y轴异常|Y-Axis Error
+开料Y轴低电压|Y-Axis Low Voltage
+开料Y轴过电压|Y-Axis Over Voltage
+开料Y轴过负荷|Y-Axis Overload
+开料Y轴位置误差过大|Y-Axis Position Error is Excessive
+开料Z轴正向软极限|Z+ Soft Limit
+开料Z轴负向软极限|Z- Soft Limit
+开料Z轴正向极限|Z+ Limit
+开料Z轴负向极限|Z- Limit
+开料Z轴未归零|Z-Axis Does Not Home
+开料Z轴异常|Z-Axis Error
+开料Z轴低电压|Z-Axis Low Voltage
+开料Z轴过电压|Z-Axis Over Voltage
+开料Z轴过负荷|Z-Axis Overload
+开料Z轴位置误差过大|Z-Axis Position Error is Excessive
+开料龙门轴正向软极限|C+ Soft Limit
+开料龙门轴负向软极限|C- Soft Limit
+开料龙门轴正向极限|C+ Limit
+开料龙门轴负向极限|C- Limit
+开料龙门轴未归零|C-Axis Does Not Home
+开料龙门轴异常|C-Axis Error
+开料龙门轴低电压|C-Axis Low Voltage
+开料龙门轴过电压|C-Axis Over Voltage
+开料龙门轴过负荷|C-Axis Overload
+开料龙门轴位置误差过大|C-Axis Position Error is Excessive
+X轴异常|X-Axis Error
+龙门轴异常|C-Axis Error
+Y轴异常|Y-Axis Error
+Z轴异常|Z-Axis Error
+刀库轴异常|T-Axis Error
+刀库轴正向软极限|T+ Soft Limit
+刀库轴负向软极限|T- Soft Limit
+刀库轴正向极限|T+ Limit
+刀库轴负向极限|T- Limit
+刀库轴未归零|T-Axis Does Not Home
+刀库轴低电压|T-Axis Low Voltage
+刀库轴过电压|T-Axis Over Voltage
+刀库轴过负荷|T-Axis Overload
+刀库轴位置误差过大|T-Axis Position Error is Excessive
+开料GCode报警|Loading G Code Alarm
+GCode软极限报警|G Code Soft Limit Alarm
+未识别的GCode|Unrecognized G code
+推料除尘推出异常|Pusher Dedusting Forward Error
+推料除尘退回异常|Pusher Dedusting Backward Error
+左导向上到位异常|Left Guide up-in-Place Error
+左导向下到位异常|Left Guide down-in-Place Error
+右导向上到位异常|Right Guide up-in-Place Error
+右导向下到位异常|Right Guide down-in-Place Error
+手轮异常|MPG Error
+对刀Z轴负极限|Tool Setting Z-Axis Negative limit
+破真空有真空残余|There is residual vacuum after vacuum breaking
+真空泵过载|Vacuum Pump Overheat
+X轴龙门误差过大,请检查驱动器异常|X-axis gantry error is too large, please check the drive abnormality
+大主轴1过载|Spindle 1 Overload
+大主轴2过载|Spindle 2 Overload
+小主轴1过载|Spindle 3 Overload
+小主轴2过载|Spindle 4 Overload
+主轴通讯异常|Spindle Communication Error
+气压不足|Insufficient Air Pressure
+真空压力不足|Insufficient Vacuum Pressure
+无油报警|Out of Oil
+主轴1上升到位异常|Spindle 1 up-in-Place Error
+主轴1下降到位异常|Spindle 1 down-in-Place Error
+主轴3上升到位异常|Spindle 3 up-in-Place Error
+主轴3下降到位异常|Spindle 3 down-in-Place Error
+主轴2上升到位异常|Spindle 2 up-in-Place Error
+主轴2下降到位异常|Spindle 2 down-in-Place Error
+主轴4上升到位异常|Spindle 4 up-in-Place Error
+主轴4下降到位异常|Spindle 4 down-in-Place Error
+推料上升到位异常|Pusher up-in-Place Error
+推料下降到位异常|Pusher down-in-Place Error
+Y定位气缸下异常|Y Positioning Cylinder down Error
+X定位气缸下异常|X Positioning Cylinder down Error
+X方向侧靠前推到位异常|X Side Aligner Forward-in-Place Error
+X方向侧靠后退到位异常|X Side Aligner Backward-in-Place Error
+Y方向侧靠后退到位异常|Y Side Aligner Backward-in-Place Error
+加工时无真空吸力|No Vacuum Suction during Processing
+请先启动真空泵|Please Turn on Vacuum Pump
+变频器1 电机热过载|INV 1 Motor Thermal Overload
+变频器2 电机热过载|INV 2 Motor Thermal Overload
+X轴未到推料降允许位置|X-Axis Does Not Reach the Position Allowed for Pusher to Fall down
+Z轴不在安全位，换刀报警|Z-Axis Is Not at a Safe Position, Tool Change Alarm
+变频器1有警报|Inverter 1 Alarms
+变频器2有警报|Inverter 2 Alarms
+主轴有刀,刀库刀夹有刀,刀库无法推出|Both spindle and tool magazine have tools, tool magazine can't move
+X轴未到Y方向侧靠允许位置|X-Axis Does Not Reach the Position Allowed for Y Side Aligner
+刀库推出到位异常|Tool Magazine Forward-in-Place Error
+刀库退回到位异常|Tool Magazine Backward-in-Place Error
+排钻过载|Drill Head Overload
+毛刷上升到位异常|Brush up-in-Place Error
+排钻下降到位异常|Drill Head down-in-Place Error
+排钻上升到位异常|Drill Head up-in-Place Error
+主轴夹刀异常|Spindle Clamp Error
+主轴松刀异常|Spindle Unclamp Error
+主轴电气元件异常|Electrical Component Error of Spindle
+主轴启动异常|Spindle Start Error
+主轴风扇异常|Spindle Fan Error
+刀库防尘罩打开异常|Tool Magazine Dust Hood Open Error
+主轴启动中继异常|Spindle Start Relay Error
+换刀当前主轴刀号错误|Current Tool No Error during Tool Change
+换刀当前主轴无刀|No Tool in Current Spindle during Tool Change
+M工件定位气缸1下降异常|Error in M Positioning Cylinder 1 Falling
+M工件定位气缸2下降异常|Error in M Positioning Cylinder 2 Falling
+N真空压力不足|N Vacuum Pressure Insufficient
+M真空压力不足|M Vacuum Pressure Insufficient
+N加工时X轴超过正向软极限|X+ Soft Limit Exceeded When Processing in Section N
+N加工时X轴超过负向软极限|X- Soft Limit Exceeded When Processing in Section N
+M加工时X轴超过正向软极限|X+ Soft Limit Exceeded When Processing in Section M
+M加工时X轴超过负向软极限|X- Soft Limit Exceeded When Processing in Section M
+N工件定位气缸1下降异常|Error in N Positioning Cylinder 1 Falling
+N工件定位气缸2下降异常|Error in N Positioning Cylinder 2 Falling
+N加工时无真空吸力|No Vacuum Suction during Processing in Section N
+M加工时无真空吸力|No Vacuum Suction during Processing in Section M
+主轴过低，推料除尘禁止推出|Spindle is too low, pusher dedusting is not allowed
+GCode X轴正向软极限报警|G Code X+ Soft Limit Exceed
+GCode X轴负向软极限报警|G Code X- Soft Limit Exceed
+GCode Y轴正向软极限报警|G Code Y+ Soft Limit Exceed
+GCode Y轴负向软极限报警|G Code Y- Soft Limit Exceed
+GCode Z轴正向软极限报警|G Code Z+ Soft Limit Exceed
+GCode Z轴负向软极限报警|G Code Z- Soft Limit Exceed
+对刀值超过Z负软极限|Tool setting value exceeds Z- soft limit
+非主轴编号|Non Spindle NO
+不支持A2-F外的驱动器|Drives other than A2-F are not supported
+不支持EtherCAT|EtherCAT is not supported
+Y定位气缸上升异常|Y Positioning Cylinder up-in-Place Error
+X定位气缸上升异常|X Positioning Cylinder up-in-Place Error
+N工件定位气缸1上升异常|N Positioning Cylinder 1 Rise Error
+N工件定位气缸2上升异常|N Positioning Cylinder 2 Rise Error
+M工件定位气缸1上升异常|M Positioning Cylinder 1 Rise Error
+M工件定位气缸2上升异常|M Positioning Cylinder 2 Rise Error
+加工过程中定位气缸上升异常|Positioning Cylinder Rise Error during Processing
+N区加工过程中定位气缸上升异常|Positioning Cylinder Rise Error during Processing in Section N
+M区加工过程中定位气缸上升异常|Positioning Cylinder Rise Error during Processing in Section M
+抓料上到位异常|Loader up-in-Place Error
+抓料下到位异常|Loader down-in-Place Error
+主轴在转，无法夹刀|Spindle is running, unable to clamp
+主轴在转，无法松刀|Spindle is running, unable to unclamp
+自动对刀过程无刀|No Tool during Auto Tool Setting
+自动对刀过程刀库退回异常|Tool Changer Backward Error during Auto Tool Setting
+主轴有刀，但当前刀号为0|There's tool in spindle but current tool No is 0
+主轴无刀，但当前刀号不为0|There's no tool in spindle but current tool No is not 0
+小板侧推上到位异常|Small Panel Pusher up-in-Place Error
+小板侧推下到位异常|Small Panel Pusher down-in-Place Error
+小板侧推推出到位异常|Small Panel Pusher Forward-in-Place Error
+小板侧推退回到位异常|Small Panel Pusher Backward-in-Place Error
+小板侧推未下降无法推出|Small Panel Pusher Does Not Fall and Can't Move Forwards
+小板侧推未收回无法升起|Small Panel Pusher Does Not Move Backwards and Can't Rise
+小板侧推下降超限位|Small Panel Pusher Falls and Exceeds Limit
+上料超时，请检查上料到位信号|Please check the loader in-place signal because of loading overtime
+档案不存在|File Not Existing
+1、找不到字符串  2、无加工内容（总行数为零）|1.No string is found. 2. No object to process (Total number of rows is zero)
+API SNC_set_process_data的第二项参数为零|Second parameter of API SNC_set_process_data is zero
+起始行超过总行数|Start row NO exceeds total number of rows
+DLL版本错误|DLL Version Error
+切削线段过短错误/警告|Cutting line segment is too short Error/Warning
+使用goto指令，但找不到对应的标签|Use goto command but can't find the corresponding label
+使用goto指令，但标签重复|Use goto command but the label is duplicated.
+SNC_Append_Group参数设定值超出范围|The set value of SNC_Append_Group exceeds the range
+SNC_Append_Group参数设定值重复|The set value of SNC_Append_Group is duplicated
+未指定SNC群组编号|No SNC Group Number Is Specified
+执行绪创建失败|Thread creation failed
+变数A重复定义|Duplicate Definition of Variable A
+变数B重复定义|Duplicate Definition of Variable B
+变数C重复定义|Duplicate Definition of Variable C
+变数D重复定义|Duplicate Definition of Variable D
+变数E重复定义|Duplicate Definition of Variable E
+变数F重复定义|Duplicate Definition of Variable F
+变数H重复定义|Duplicate Definition of Variable H
+变数I重复定义|Duplicate Definition of Variable I
+变数J重复定义|Duplicate Definition of Variable J
+变数K重复定义|Duplicate Definition of Variable K
+变数L重复定义|Duplicate Definition of Variable L
+变数M重复定义|Duplicate Definition of Variable M
+变数P重复定义|Duplicate Definition of Variable P
+变数Q重复定义|Duplicate Definition of Variable Q
+变数R重复定义|Duplicate Definition of Variable R
+变数S重复定义|Duplicate Definition of Variable S
+变数T重复定义|Duplicate Definition of Variable T
+变数U重复定义|Duplicate Definition of Variable U
+变数V重复定义|Duplicate Definition of Variable V
+变数W重复定义|Duplicate Definition of Variable W
+变数X重复定义|Duplicate Definition of Variable X
+变数Y重复定义|Duplicate Definition of Variable Y
+变数Z重复定义|Duplicate Definition of Variable Z
+变数D为负数|Variable D is negative
+变数F为负数|Variable F is negative
+变数G为负数|Variable G is negative
+变数H为负数|Variable H is negative
+变数L为负数|Variable L is negative
+变数M为负数|Variable M is negative
+变数P为负数|Variable P is negative
+变数范围不在A~Z之中|Variable range is not within A-Z
+未知变数|Unknown Variable
+A开头未知函数|Unknown Function Starting with A
+C开头未知函数|Unknown Function Starting with C
+E开头未知函数|Unknown Function Starting with E
+F开头未知函数|Unknown function starting with F
+L开头未知函数|Unknown function starting with L
+P开头未知函数|Unknown function starting with P
+R开头未知函数|Unknown function starting with R
+S开头未知函数|Unknown function starting with S
+T开头未知函数|Unknown function starting with T
+未知的运算子|Unknown Operator
+未知的操作|Unknown Operation
+A开头未知运算子|Unknown Operator Starting with A
+E开头未知运算子|Unknown Operator Starting with E
+G开头未知运算子|Unknown Operator Starting with G
+L开头未知运算子|Unknown Operator Starting with L
+M开头未知运算子|Unknown Operator Starting with M
+N开头未知运算子|Unknown Operator Starting with N
+O开头未知运算子|Unknown Operator Starting with O
+X开头未知运算子|Unknown Operator Starting with X
+未知函数|Unknown function.
+不支援G10|G10 is not supported
+M Code超出范围；容许范围：0~999|M Code is out of range; allowable range: 0-999
+存数#变数超出范围|Store # variable out of range
+存取@变数超出范围|Store @ variable out of range
+给予切削深度Q的设定值不可小于或等于0|The set value given to cutting depth Q cannot be less than or equal to 0
+转速S的设定值不可小于0|The set value of rotation speed S cannot be less than 0
+刀具T的设定值不可小于0|The set value of tool T cannot be less than 0
+同个G Code重复设定功能群组|Repeatedly set functional group within one G Code.
+缩放值要设定两个轴|The zoom value should be set for two axes
+X 有设定缩放点，但未设定缩放值|X has set a zoom point, but no zoom value
+Y 有设定缩放点，但未设定缩放值|Y has set a zoom point, but no zoom value
+Z 有设定缩放点，但未设定缩放值|Z has set a zoom point, but no zoom value
+未设定镜像轴|Mirror axis is not set.
+未设定旋转角度|Rotation angle is not set
+钻孔循环次数为负|The number of drilling cycles is negative
+SNC初始化失败|SNC initialization failed
+加工中无法设定参数|Cannot set parameters during processing
+轴号超出范围；容许范围：“1~9”|Axis number is out of range; allowable range: 1-9
+轴号重复使用|Axis NO Reuse
+使用轴数为零|Number of axes used is 0
+G Code使用轴数大于SNC_Axes的设定值|Number of axes used by G Code is more than the set value of SNC_Axes
+巨集处理模式设定错误|Macro Processing Mode Setting Error
+未设定CALLBACK函数|CALLBACK function is not set
+齿轮比为零|Gear ratio is zero
+G00进给速度为零|G00 feed speed is zero
+工作平面设定错误|Workpiece Plane Setting Error
+副程式层数超过四层|More than Four Subroutine Layers
+G02、G03参数错误|G02, G03 Parameter Error
+G02、G03平面错误|G02, G03 Plane Error
+G02、G03无法计算坐标|G02 and G03 Cannot Calculate Coordinate.
+G02、G03使用轴数超过三轴|G02, G03 Use More than Three Axes
+加工中，无法再使用加工函数|Processing functions can no longer be used during processing
+SNC_Tool_Max 参数设定超出范围;容许范围：1~100|SNC_Tool_Max parameter setting is out of range; allowable range: 1-100
+刀径补偿目前只支持XY平面|Tool radius compensation currently only supports XY plane
+刀径补正与螺旋补间功能不可同时使用|Tool radius correction and spiral tween function cannot be used at the same time
+无法计算刀径补偿路径|Unable to calculate tool radius compensation path
+刀径补偿第一个动作不能为G02/G03|The first action of tool radius compensation cannot be G02 / G03
+记忆体配置错误|Memory Allocation Failure
+使用使用者巨集功能，但未设定CALLBACK函数|Use the User Macro function. but CALLBACK function is not set
+钻孔处理模式设置错误|Drilling Processing Mode Setting Error
+不支持钻孔模式循环|Drilling mode cycle is not supported
+齿轮比设定错误|Gear Ratio Setting Error
+SNC轴数错误|SNC Axis Number Error
+刀径值不正确（太大或太小）|Incorrect Tool Radius (Too Big or Too Small)
+使用SNC_Check_Tool_No参数，但是SNC_tool_Max参数设定值为零|SNC_Check_Tool_No parameter is used, but SNC_tool_Max parameter is set to zero
+设定方向数值错误（设定值仅能为-1或1）|Direction set value is wrong (set value can only be -1 or 1)
+单位设定错误|Unit Setting Error
+装置不能为04PIMode1|Device cannot be 04PIMode1
+装置为RM模组|Device is RM module
+此站号找不到装置|No device found at this station number
+未知装置|Unknown device
+底层 API 回传错误，请读取参数SNC_API_ErrNo|Low-level API return error, please read the parameter SNC_API_ErrNo
+尚未设定群组数目|Group number is not set
+操作的群组超出设定范围|Operation group is out of the set range
+错误的卡片类别|Wrong Card Type
+刀径补正未结束前，无法执行巨集功能|Macro function cannot be executed until the tool radius correction is completed
+无上料配置，但使用了P407|No loading configuration, but P407 is used
+无下料配置，但使用了P408|No unloading configuration, but P408 is used
+无上料配置或下料配置，但使用了P406|No loading or unloading configuration, but P406 is used
+未配置排钻但使用了排钻M码|No drill head is configured but drill head M code is used
+未配置下料装置但使用了相关M码|Unloader is not configured but the relevant M code is used
+未配置上料装置但使用了相关M码|No loader is configured but relevant M code is used
+未配置导向装置但使用了相关M码|No guide is configured but relevant M code is used
+未配置定位配置但是用了相关M码|No positioner is configured but the relevant M code is used
+Y方向侧靠推出到位异常|Y Side Aligner Push Forward-in-Place Error
+未满足预热条件|Warm-up condition was not met
+排钻接触器吸合异常|Drill Head Contactor Suction Error
+排钻接触器断开异常|Drill Head Contactor Disconnection Error
+对刀仪信号错误报警|Signal Error for Tool Setting Gauge
+对刀仪极限报警|Limit Alarm for Tool Setting Gauge
+主轴无刀或未正确夹刀;无法正转|No tool in spindle or tool is not clamped correctly, can't move forwards
+主轴无刀或未正确夹刀;无法反转|No tool in spindle or tool is not clamped correctly, can't move backwards
+预热阶段1未达到转速|Preheating stage 1 does not reach the rotation speed
+预热阶段2未达到转速|Preheating stage 2 does not reach the rotation speed
+预热阶段3未达到转速|Preheating stage 3 does not reach the rotation speed
+面板急停报警|Panel EMG Stop
+大X侧急停报警|X-Axis Side EMG Stop
+小X侧急停报警|C Axis Side EMG Stop
+外罩急停报警|Cover EMG Stop
+N区急停报警|Section N EMG Stop
+M区急停报警|Section M EMG Stop
+开料X轴过电流|X-axis overcurrent
+开料X轴电机匹配错误|X-axis motor mismatch
+开料X轴回生错误|X-axis retrogradation error
+开料X轴过速度|X-axis over speed
+开料X轴异常脉波控制命令|Abnormal pulse command of X-axis
+开料X轴位置检出器异常|Defective X-axis position detector
+开料X轴校正异常|X-axis calibration error
+开料X轴紧急停止|X-Axis EMG Stop
+开料X轴反向极限异常|X-axis cackward limit error
+开料X轴正向极限异常|X-axis forward limit error
+开料X轴IGBT过热|X-axis IGBT overheat
+开料X轴记忆体异常|X-axis memory error
+开料X轴检出器输出异常|X-axis detector output error
+开料X轴串列通讯异常|X-axis serial communication error
+开料X轴串列通讯逾时|X-axis serial communication timeout
+开料X轴主回路电源异常|Main circuit power supply error for X-axis
+开料X轴预先过载警告|X-axis overload in advance
+开料X轴编码器初始磁场错误|Initial magnetic field error for X-axis encoder
+开料X轴编码器内部错误|Inner error for X-axis encoder
+开料X轴编码器内部资料可靠度错误|The reliability of the internal data of  X-axis encoder is incorrect
+开料X轴编码器内部重置错误|Internal eeset error for X-axis encoder
+开料X轴编码器高电压错误或编码器内部错误|High voltage error or internal error for X-axis encoder
+开料X轴格雷码错误|X-axis gray code error
+开料X轴电机碰撞错误|X-axis motor collision error
+开料X轴电机U、V、W接线错误|U, V, W wiring error for X-axis motor
+开料X轴编码器内部通讯异常|Internal communication error for X-axis motor
+开料X轴温饱超过保护上限|X-axis temperature beyong protection limit
+开料X轴全闭环位置控制误差过大|Closed loop position control error of X-axis is too large
+开料X轴光学尺断线|X-axis communication of CN5 is broken
+开料X轴类比速度电压输入过高|X-axis analog speed voltage input is too high
+开料X轴驱动器功能使用警告|X-axis driver function use warning
+开料X轴电子齿轮比设定错误|Electronic gear ratio setting error for X-axis
+开料X轴绝对位置遗失|Absolute position of X-axis is missing
+开料X轴编码器低电压错误|Low voltage error for X-axis encoder
+开料X轴绝对型位置圈数溢位|Absolute position cycle number overflow for X-axis
+开料X轴温度警告|X-axis temperature warning
+开料X轴绝对型资料I/O传输错误|Absolute data I/O tansmission error for X-axis
+开料X轴马达型式错误|X-axis motor type error
+开料X轴绝对值位置未初始化|Absolute position is not initialized for X-axis
+开料X轴编码器处置未完成警告|X-axis encoder disposal incompletion warning
+开料X轴驱动器输出电流过大|Output current of X-axis driver is too large
+开料X轴回生异常|X-axis retrogradation error
+开料X轴未接外部回生电阻|X-axis does not connect to external retrogradation resistance
+开料X轴DSP韧体升级|X-axis DSP firmware upgrade
+开料X轴CANopen SDO 接收溢位|X-axis CANopen SDO receives overflow
+开料X轴CANopen PDO 接收溢位|X-axis CANopen PDO receives overflow
+开料X轴CANopen PDO 存取时，Index错误|Index error occurs when X-axis is accessing CANopen PDO
+开料X轴CANopen PDO 存取时，Sub-Index错误|Sub-Index error occurs when X-axis is accessing CANopen PDO
+开料X轴CANopen PDO 存取时，资料Size错误|Data Size error occurs when X-axis is accessing CANopen PDO
+开料X轴CANopen PDO 存取时，资料范围错误|Data range error occurs when X-axis is accessing CANopen PDO
+开料X轴CANopen PDO 物件是唯读，不可写入|X-axis CANopen PDO object is read-only and write-protected
+开料X轴CANopen PDO 物件，不允许PDO|X-axis CANopen PDO object, PDO is not allowed
+开料X轴CANopen PDO物件，Servo On时，不允许写入|X-axis CANopen PDO object, when Servo On, writing is not allowed
+开料X轴由EEPRON读取CANopen PDO物件时发生错误|Error occurs when X-axis reads CANopen PDO object from EEPRON
+开料X轴CANopen PDO物件，写入EEPROM时错误|X-axis CANopen PDO object, error occurs when writing to EEPROM
+开料X轴CANopen PDO物件，EEPROM的位置超过限制|X-axis CANopen PDO object, EEPROM location exceeds limit
+开料X轴CANopen PDO物件，EEPROM的CRC计算错误|X-axis CANopen PDO object, CRC calculation error of EEPROM occurs
+开料X轴CANopen PDO物件，写入密码错误|X-axis CANopen PDO object, password writing error
+开料X轴心跳监控或节点保护功能错误（Servo On）|X-axis heartbeat monitoring or node protection function error (Servo On)
+开料X轴心跳监控或节点保护功能错误（Servo Off）|X-axis heartbeat monitoring or node protection function error (Servo Off)
+开料X轴CAN Bus硬体异常（警告）|X-Axis CAN Bus Hardware Error (Warning)
+开料X轴CAN Bus硬体异常（Bus-off）|X-Axis CAN Bus Hardware Error (Bus-off)
+开料X轴CANNopen资料初始错误|X-Axis CANNopen Data Initial Error
+开料X轴PR 命令 Type 8 指令来源组超出范围|X-axis PR command Type 8 instruction source group is out of range
+开料X轴PR 命令 Type 8 指令来源参数号码超出范围|X-axis PR command Type 8 instruction source parameter number is out of range
+开料X轴PR 命令 Type 8 指令参数设定错误|X-axis PR command Type 8 instruction parameter setting is wrong.
+开料X轴写入参数：唯读|X-axis write parameter: read only
+开料X轴写入参数：参数锁定|X-axis write parameter: parameter lock
+开料X轴PR 命令 Type 8指令设定来源监视项目代码超出范围|X-axis PR command Type 8 instruction setting source monitoring item code is out of range
+开料X轴PR 命令异常|X-axis PR command error
+开料X轴分度坐标未定义|X-axis indexing coordinate is undefined
+开料X轴软体正极限|X-axis forward software limit
+开料X轴软体负极限|X-axis backward software limit
+开料X轴计数器溢位|X-axis counter overflow
+开料X轴Servo OFF异常|X-axis Servo Off error
+开料X轴CANopen同步失效（Servo On）|X-axis CANopen failed to synchronize（Servo On）
+开料X轴CANopen同步信号过快|X-axis The synchronized signal of CANopen is sent too fast（Servo On）
+开料X轴CANopen同步信号超时|X-axis The synchronized signal of CANopen send timeout（Servo On）
+开料X轴XCAN open命令失效（Servo On）|X-axis XCAN open command failed（Servo On）
+开料X轴SUNC Period 错误（Servo On）|X-axis SYNC Period error（Servo On）
+开料X轴CANopen同步失效（Servo Off）|X-axis CANopen failed to synchronize（Servo Off）
+开料X轴CANopen同步信号太快（Servo Off）|X-axis The synchronized signal of CANopen is sent too fast（Servo Off）
+开料X轴CANopen同步信号超时（Servo Off）|X-axis The synchronized signal of CANopen send timeout（Servo Off）
+开料X轴CANopen IP 命令失效（Servo Off）|X-axis CANopen IP command is failed（Servo Off）
+开料X轴SYNC period错误（Servo Off）|X-axis SYNC Period error（Servo Off）
+开料X轴分度坐标错误|X-axis index coordinate error
+开料X轴Servo On时收到NMT Reset 命令|X-axis NMT Reset command is received when Servo On
+开料X轴PR 特殊滤波设置太大|X-axis PR special filter is set too large
+开料X轴系统故障|X-axis system failure
+加工过程中导向条上升异常|The guide bar rises abnormally during processing
+启动前手动收起抓料机构|Manually put away the loading mechanism before starting
+开料Y轴过电流|Y-axis over current
+开料Y轴电机匹配错误|Y-axis motor mismatch
+开料Y轴回生错误|Y-axis regeneration error
+开料Y轴过速度|Y-axis over speed
+开料Y轴异常脉波控制命令|Y-axis abnormal pulse command
+开料Y轴位置检出器异常|Y-axis position detector error
+开料Y轴校正异常|Y-axis calibration error
+开料Y轴紧急停止|Y-axis emergency stop
+开料Y轴反向极限异常|Y-axis reverse limit error
+开料Y轴正向极限异常|Y-axis positive limit error
+开料Y轴IGBT过热|Y-axis IGBT overheating
+开料Y轴记忆体异常|Y-axis memory error
+开料Y轴检出器输出异常|Y-Axis Detector Output Error
+开料Y轴串列通讯异常|Y-Axis Serial Communication Error
+开料Y轴串列通讯逾时|Y-axis serial communication timeout
+开料Y轴主回路电源异常|Y-axis main circuit power supply is abnormal
+开料Y轴预先过载警告|Y-axis pre-overload warning
+开料Y轴编码器初始磁场错误|Initial magnetic field error for Y-axis encoder
+开料Y轴编码器内部错误|internal error for Y-axis encoder
+开料Y轴编码器内部资料可靠度错误|internal data reliability error for Y-axis encoder
+开料Y轴编码器内部重置错误|internal reset error for Y-axis encoder
+开料Y轴格雷码错误|Y-axis gray code error
+开料Y轴电机碰撞错误|Y-axis motor collision error
+开料Y轴电机U、V、W接线错误|Wrong connection of U, V, W for Y-axis motor
+开料Y轴编码器内部通讯异常|Internal communication error of Y-axis encoder
+开料Y轴全闭环位置控制误差过大|Full closed loop position control error for Y-axis is too large
+开料Y轴光学尺断线|Optical ruler of Y-axis broken
+开料Y轴类比速度电压输入过高|Y-axis analog speed voltage input is too high
+开料Y轴驱动器功能使用警告|Y-axis driver function use warning
+开料Y轴电子齿轮比设定错误|Y-axis electronic gear ratio setting error
+开料Y轴绝对位置遗失|Absolute position Missing for Y-axis
+开料Y轴编码器低电压错误|low voltage error for Y-axis encoder
+开料Y轴绝对型位置圈数溢位|Absolute position cycle number overflow for Y-axis
+开料Y轴温度警告|Y-axis temperature warning
+开料Y轴绝对型资料I/O传输错误|absolute data I/O transmission error for Y-axis
+开料Y轴马达型式错误|Y-axis motor type error
+开料Y轴绝对值位置未初始化|absolute value position of Y-axis is not initialized
+开料Y轴编码器处置未完成警告|Y-axis encoder disposal incompletion warning
+开料Y轴驱动器输出电流过大|Y-axis driver output current is too large
+开料Y轴回生异常|Y-axis retrogradation error
+开料Y轴未接外部回生电阻|Y-axis is not connected to external retrogradation resistance
+开料Y轴DSP韧体升级|Y-axis DSP firmware upgrade
+开料Y轴CANopen SDO 接收溢位|Y-axis CANopen SDO receive overflow
+开料Y轴CANopen PDO 接收溢位|Y-axis CANopen PDO receive overflow
+开料Y轴CANopen PDO 存取时，Index错误|Index error during Y-axis CANopen PDO access
+开料Y轴CANopen PDO 存取时，Sub-Index错误|Sub-Index error during Y-axis CANopen PDO access
+开料Y轴CANopen PDO 存取时，资料Size错误|Data size error when accessing YCAN CANopen PDO
+开料Y轴CANopen PDO 存取时，资料范围错误|Data range error during Y-axis CANopen PDO access
+开料Y轴CANopen PDO 物件是唯读，不可写入|Y-axis CANopen PDO objects are read-only and cannot be written
+开料Y轴CANopen PDO 物件，不允许PDO|Y-axis CANopen PDO object, PDO is not allowed
+开料Y轴CANopen PDO 物件，Servo On时，不允许写入|Y-axis CANopen PDO object, when Servo On, write is not allowed
+开料Y轴由EEPRON读取CANopen PDO物件时发生错误|Error occurs when Y-axis reads CANopen PDO object by YEPRON
+开料Y轴CANopen PDO物件，写入EEPROM时错误|Y-axis CANopen PDO object, error occurs when writing to EEPROM
+开料Y轴CANopen PDO物件，EEPROM的位置超过限制|Y-axis CANopen PDO object, EEPROM location exceeds limit
+开料Y轴CANopen PDO物件，EEPROM的CRC计算错误|Y-axis CANopen PDO object, CRC calculation error occurs for EEPROM
+开料Y轴CANopen PDO物件，写入密码错误|Y-axis CANopen PDO object, password writing error
+开料Y轴心跳监控或节点保护功能错误（Servo On）|Y-axis heartbeat monitoring or node protection function error (Servo On)
+开料Y轴心跳监控或节点保护功能错误（Servo Off）|Y-axis heartbeat monitoring or node protection function error (Servo Off)
+开料Y轴CAN Bus硬体异常（警告）|CAN bus hardware error on Y-axis (warning)
+开料Y轴CAN Bus硬体异常（Bus-off）|Y-axis CAN Bus hardware abnormality (Bus-off)
+开料Y轴CANNopen资料初始错误|Initial error of Y-axis CANNopen data
+开料Y轴PR 命令 Type 8 指令来源组超出范围|Y-axis PR command Type 8 instruction source group is out of range
+开料Y轴PR 命令 Type 8 指令来源参数号码超出范围|Y-axis PR command Type 8 instruction source parameter number is out of range
+开料Y轴PR 命令 Type 8 指令参数设定错误|Y-axis PR command Type 8 instruction parameter setting error
+开料Y轴写入参数：唯读|Y-axis write parameters: read only
+开料Y轴写入参数：参数锁定|Y-axis write parameter: parameter lock
+开料Y轴PR 命令 Type 8指令设定来源监视项目代码超出范围|Y-axis PR command Type 8 instruction setting source monitoring item code is out of range
+开料Y轴PR 命令异常|Y-axis PR command error
+开料Y轴分度坐标未定义|Y-axis indexing coordinates are undefined
+开料Y轴软体正极限|Y-axis software positive limit
+开料Y轴软体负极限|Y-axis software negative limit
+开料Y轴计数器溢位|Y-axis counter overflow
+开料Y轴Servo OFF异常|Y-axis Servo OFF error
+开料Y轴CANopen同步失效（Servo On）|Y-axis CANopen synchronization failed (Servo On)
+开料Y轴CANopen同步信号过快|Y-axis CANopen synchronization signal is too fast
+开料Y轴CANopen同步信号超时|Y-axis CANopen synchronization signal timed out
+开料Y轴XCAN open命令失效（Servo On）|Y-axis XCAN open command is invalid (Servo On)
+开料Y轴SUNC Period 错误（Servo On）|Y-axis SUNC Period error (Servo On)
+开料Y轴CANopen同步失效（Servo Off）|CANopen synchronization failure of Y-axis (Servo Off)
+开料Y轴CANopen同步信号太快（Servo Off）|Y-axis CANopen synchronization signal is too fast (Servo Off)
+开料Y轴CANopen同步信号超时（Servo Off）|Y-axis CANopen synchronization signal timed out (Servo Off)
+开料Y轴CANopen IP 命令失效（Servo Off）|CANopen IP command of Y-axis is invalid (Servo Off)
+开料Y轴SYNC period错误（Servo Off）|Y-axis SYNC period error（Servo Off）
+开料Y轴分度坐标错误|Y-axis indexing coordinate error
+开料Y轴Servo On时收到NMT Reset 命令|Receive NMT Reset command when Y-axis Servo On
+开料Y轴PR 特殊滤波设置太大|PR special filter of Y-axis is set too large
+开料Y轴系统故障|Y-axis system failure
+开料Z轴过电流|Z-axis overcurrent
+开料Z轴电机匹配错误|Z-axis motor mismatch
+开料Z轴回生错误|Z-axis retrogradation error
+开料Z轴过速度|Z-axis over speed
+开料Z轴异常脉波控制命令|Z-axis abnormal pulse control command
+开料Z轴位置检出器异常|Z-axis position detector is abnormal
+开料Z轴校正异常|Z-axis correction error
+开料Z轴紧急停止|Z-axis emergency stop
+开料Z轴反向极限异常|Z-axis reverse limit error
+开料Z轴正向极限异常|Z-axis positive limit error
+开料Z轴IGBT过热|Z-axis IGBT overheating
+开料Z轴记忆体异常|Z-axis memory abnormality
+开料Z轴检出器输出异常|Z-axis detector output error
+开料Z轴串列通讯异常|Z-axis serial communication error
+开料Z轴串列通讯逾时|Z-axis serial communication timeout
+开料Z轴主回路电源异常|Z-axis main circuit power supply error
+开料Z轴预先过载警告|Z-axis pre-overload warning
+开料Z轴编码器初始磁场错误|Initial magnetic field error for Z-axis encoder
+开料Z轴编码器内部错误|Internal error for Z-axis encoder
+开料Z轴编码器内部资料可靠度错误|Internal data reliability error for Z-axis encoder
+开料Z轴编码器内部重置错误|Internal reset error of Z-axis encoder
+开料Z轴编码器高电压错误或编码器内部错误|Z-axis encoder high voltage error or encoder internal error
+开料Z轴格雷码错误|Z-axis gray code error
+开料Z轴电机碰撞错误|Z-axis motor collision error
+开料Z轴电机U、V、W接线错误|Z-axis motor U, V, W wiring error
+开料Z轴编码器内部通讯异常|Internal communication error of Z-axis encoder
+开料Z轴全闭环位置控制误差过大|Full closed loop position control error of Z-axis is too large
+开料Z轴光学尺断线|Z-axis optical ruler broken
+开料Z轴类比速度电压输入过高|Z-axis analog speed voltage input is too high
+开料Z轴驱动器功能使用警告|Z-axis driver function use warning
+开料Z轴电子齿轮比设定错误|electronic gear ratio setting of Z-axis is incorrect
+开料Z轴绝对位置遗失|Absolute position of Z-axis is missing
+开料Z轴编码器低电压错误|Low voltage error of Z-axis encoder
+开料Z轴绝对型位置圈数溢位|Absolute position cycle number of Z-axis overflow
+开料Z轴温度警告|Z-axis temperature warning
+开料Z轴绝对型资料I/O传输错误|Absolute data I/O transmission error of Z-axis overflow
+开料Z轴马达型式错误|Z-axis motor type error
+开料Z轴绝对值位置未初始化|Absolute value position of Z-axis overflow is not initialized
+开料Z轴编码器处置未完成警告|Z-axis encoder disposal incompletion
+开料Z轴驱动器输出电流过大|Z-axis driver output current is too large
+开料Z轴回生异常|Z-axis retrogradation error
+开料Z轴未接外部回生电阻|Z-axis is not connected to external retrogradation resistance
+开料Z轴DSP韧体升级|Z-axis DSP firmware upgrade
+开料Z轴CANopen SDO 接收溢位|Z axis CANopen SDO receives overflow.
+开料Z轴CANopen PDO 接收溢位|Z-axis CANopen PDO receives overflow
+开料Z轴CANopen PDO 存取时，Index错误|Index error during Z-axis CANopen PDO access
+开料Z轴CANopen PDO 存取时，Sub-Index错误|Sub-Index error during Z-axis CANopen PDO access
+开料Z轴CANopen PDO 存取时，资料Size错误|Data size error when Zopen CANopen PDO is accessed
+开料Z轴CANopen PDO 存取时，资料范围错误|Data range error during Z-axis CANopen PDO access
+开料Z轴CANopen PDO 物件是唯读，不可写入|Z-axis CANopen PDO objects are read-only and cannot be written
+开料Z轴CANopen PDO 物件，不允许PDO|CANopen PDO object for Z-axis, PDO is not allowed
+开料Z轴CANopen PDO 物件，Servo On时，不允许写入|CANopen PDO object of Z-axis, when Servo On, write is not allowed
+开料Z轴由EEPRON读取CANopen PDO物件时发生错误|An error occurrs when Z axis reads the CANopen PDO object by EEPRON
+开料Z轴CANopen PDO物件，写入EEPROM时错误|CANopen PDO object of Z-axis, error occurs in writing to EEPROM
+开料Z轴CANopen PDO物件，EEPROM的位置超过限制|CANopen PDO object of Z-axis, EEPROM location exceeds limit
+开料Z轴CANopen PDO物件，EEPROM的CRC计算错误|Z-axis CANopen PDO object, CRC calculation error of EEPROM
+开料Z轴CANopen PDO物件，写入密码错误|CANopen PDO object of Z-axis, password writing error
+开料Z轴心跳监控或节点保护功能错误（Servo On）|Z-axis heartbeat monitoring or node protection function error (Servo On)
+开料Z轴心跳监控或节点保护功能错误（Servo Off）|Z-axis heartbeat monitoring or node protection function error (Servo Off)
+开料Z轴CAN Bus硬体异常（警告）|Z-axis CAN Bus hardware error (warning)
+开料Z轴CAN Bus硬体异常（Bus-off）|Z axis CAN hardware error (Bus off)
+开料Z轴CANNopen资料初始错误|Initial error of Z-axis CANNopen data
+开料Z轴PR 命令 Type 8 指令来源组超出范围|Z-axis PR command Type 8 instruction source group is out of range
+开料Z轴PR 命令 Type 8 指令来源参数号码超出范围|Z-axis PR command Type 8 instruction source parameter number is out of range
+开料Z轴PR 命令 Type 8 指令参数设定错误|Z-axis PR command Type 8 instruction parameter setting error
+开料Z轴写入参数：唯读|Z-axis write parameter: read only
+开料Z轴写入参数：参数锁定|Z-axis write parameter: parameter lock
+开料Z轴PR 命令 Type 8指令设定来源监视项目代码超出范围|Z-axis PR command Type 8 command setting source monitoring item code is out of range
+开料Z轴PR 命令异常|Z-axis PR command error
+开料Z轴分度坐标未定义|Z-axis indexing coordinates are undefined
+开料Z轴软体正极限|Z-axis software positive limit
+开料Z轴软体负极限|Z-axis software negative limit
+开料Z轴计数器溢位|Z-axis counter overflow
+开料Z轴Servo OFF异常|Z-axis Servo Off error
+开料Z轴CANopen同步失效（Servo On）|Z-axis CANopen synchronization failure (Servo On)
+开料Z轴CANopen同步信号过快|Z-axis CANopen synchronization signal is too fast
+开料Z轴CANopen同步信号超时|Z-axis CANopen synchronization signal timed out
+开料Z轴XCAN open命令失效（Servo On）|Z-axis XCAN open command is invalid (Servo On)
+开料Z轴SUNC Period 错误（Servo On）|Z-axis SUNC Period error (Servo On)
+开料Z轴CANopen同步失效（Servo Off）|Z-axis CANopen synchronization failure (Servo Off)
+开料Z轴CANopen同步信号太快（Servo Off）|Z-axis CANopen synchronization signal is too fast (Servo Off)
+开料Z轴CANopen同步信号超时（Servo Off）|Z-axis CANopen synchronization signal timed out (Servo Off)
+开料Z轴CANopen IP 命令失效（Servo Off）|Z-axis CANopen IP command is invalid (Servo Off)
+开料Z轴SYNC period错误（Servo Off）|Z-axis SYNC period error (Servo Off)
+开料Z轴分度坐标错误|Z-axis indexing coordinate error
+开料Z轴Servo On时收到NMT Reset 命令|Z axis NMT Reset command is received when Servo On.
+开料Z轴PR 特殊滤波设置太大|PR special filter of Z-axis is set too large
+开料Z轴系统故障|Z-axis system failure
+开料龙门轴过电流|C-axis overcurrent
+开料龙门轴电机匹配错误|C-axis motor mismatch
+开料龙门轴回生错误|C axis Retrogradation error
+开料龙门轴过速度|C-axis overspeed
+开料龙门轴异常脉波控制命令|Abnormal pulse command of C-axis
+开料龙门轴位置检出器异常|C-axis position detector is abnormal
+开料龙门轴校正异常|C-axis correction error
+开料龙门轴紧急停止|C-axis emergency stop
+开料龙门轴反向极限异常|C-axis reverse limit error
+开料龙门轴正向极限异常|C-axis positive limit error
+开料龙门轴IGBT过热|C-axis IGBT overheating
+开料龙门轴记忆体异常|C-axis memory abnormality
+开料龙门轴检出器输出异常|C-axis detector output is abnormal
+开料龙门轴串列通讯异常|Serial communication error of C-axis
+开料龙门轴串列通讯逾时|Serial communication timeout of C-axis
+开料龙门轴主回路电源异常|Main circuit power supply error of C-axis
+开料龙门轴预先过载警告|Pre-overlaod warning for C-axis
+开料龙门轴编码器初始磁场错误|Initial magnetic field error of C-axis encoder
+开料龙门轴编码器内部错误|Internal error of C-axis encoder
+开料龙门轴编码器内部资料可靠度错误|Internal data reliability error of C-axis encoder
+开料龙门轴编码器内部重置错误|Internal reset error of C-axis encoder
+开料龙门轴编码器高电压错误或编码器内部错误|High voltage error or internal error of C-axis encoder
+开料龙门轴格雷码错误|C-axis gray code error
+开料龙门轴电机碰撞错误|C-axis motor collision error
+开料龙门轴电机U、V、W接线错误|C-axis motor U, V, W wiring error
+开料龙门轴编码器内部通讯异常|Internal communication error of C-axis encoder
+开料龙门轴全闭环位置控制误差过大|Full closed loop position control error of C-axis is too large
+开料龙门轴光学尺断线|Optical ruler of C-axis broken
+开料龙门轴类比速度电压输入过高|C-axis analog speed voltage input is too high
+开料龙门轴驱动器功能使用警告|C-axis driver function use warning
+开料龙门轴电子齿轮比设定错误|Electronic gear ratio setting of C-axis is incorrect
+开料龙门轴绝对位置遗失|Z-axis absolute position is missing
+开料龙门轴编码器低电压错误|Low voltage error of C-axis encoder
+开料龙门轴绝对型位置圈数溢位|Absolute position cycle number of C-axis overflow
+开料龙门轴温度警告|C-axis temperature warning
+开料龙门轴绝对型资料I/O传输错误|Absolute data I/O transmission error of C-axis
+开料龙门轴马达型式错误|C-axis motor type error
+开料龙门轴绝对值位置未初始化|C-axis absolute value position is not initialized
+开料龙门轴编码器处置未完成警告|C-axis encoder disposal incompletion
+开料龙门轴驱动器输出电流过大|C-axis driver output current is too large
+开料龙门轴回生异常|C-axis retrogradation error
+开料龙门轴未接外部回生电阻|C-axis is not connected to external retrogradation resistance
+开料龙门轴DSP韧体升级|C-axis DSP firmware upgrade
+开料龙门轴CANopen SDO 接收溢位|C-axis CANopen SDO receives overflow.
+开料龙门轴CANopen PDO 接收溢位|C-axis CANopen PDO receive overflow
+开料龙门轴CANopen PDO 存取时，Index错误|Index error during C-axis CANopen PDO access
+开料龙门轴CANopen PDO 存取时，Sub-Index错误|Sub-Index error during C-axis CANopen PDO access
+开料龙门轴CANopen PDO 存取时，资料Size错误|Data size error when Copen CANopen PDO is accessed
+开料龙门轴CANopen PDO 存取时，资料范围错误|Data range error during C-axis CANopen PDO access
+开料龙门轴CANopen PDO 物件是唯读，不可写入|C-axis CANopen PDO objects are read-only and cannot be written
+开料龙门轴CANopen PDO 物件，不允许PDO|CANopen PDO object for C-axis, PDO is not allowed
+开料龙门轴CANopen PDO 物件，Servo On时，不允许写入|CANopen PDO object of C-axis, when Servo On, write is not allowed
+开料龙门轴由EEPRON读取CANopen PDO物件时发生错误|An error occurred when C-axis reads CANopen PDO object by EEPRON
+开料龙门轴CANopen PDO物件，写入EEPROM时错误|CANopen PDO object of C-axis, error occurs in writing to EEPROM
+开料龙门轴CANopen PDO物件，EEPROM的位置超过限制|CANopen PDO object of C-axis, EEPROM location exceeds limit
+开料龙门轴CANopen PDO物件，EEPROM的CRC计算错误|C-axis CANopen PDO object, CRC calculation error of EEPROM
+开料龙门轴CANopen PDO物件，写入密码错误|CANopen PDO object of C-axis, password writing error
+开料龙门轴开料X轴心跳监控或节点保护功能错误（Servo On）|C-axis heartbeat monitoring or node protection function error (Servo On)
+开料龙门轴开料X轴心跳监控或节点保护功能错误（Servo Off）|C-axis heartbeat monitoring or node protection function error (Servo Off)
+开料龙门轴CAN Bus硬体异常（警告）|C-axis CAN Bus hardware error (warning)
+开料龙门轴CAN Bus硬体异常（Bus-off）|C-axis CAN Bus off hardware error (Bus-off)
+开料龙门轴CANNopen资料初始错误|Initial error of C-axis CANNopen data
+开料龙门轴PR 命令 Type 8 指令来源组超出范围|C-axis PR command Type 8 instruction source group is out of range
+开料龙门轴PR 命令 Type 8 指令来源参数号码超出范围|C-axis PR command Type 8 instruction source parameter number is out of range
+开料龙门轴PR 命令 Type 8 指令参数设定错误|C-axis PR command Type 8 instruction parameter setting error
+开料龙门轴写入参数：唯读|C-axis write parameter: read only
+开料龙门轴写入参数：参数锁定|C-axis write parameter: parameter lock
+开料龙门轴PR 命令 Type 8指令设定来源监视项目代码超出范围|C-axis PR command Type 8 command setting source monitoring item code is out of range
+开料龙门轴PR 命令异常|C-axis PR command error
+开料龙门轴分度坐标未定义|C-axis indexing coordinates are undefined
+开料龙门轴软体正极限|C-axis software positive limit
+开料龙门轴软体负极限|C-axis software negative limit
+开料龙门轴计数器溢位|C-axis counter overflow
+开料龙门轴Servo OFF异常|C-axis Servo Off error
+开料龙门轴CANopen同步失效（Servo On）|C-axis CANopen synchronization failure (Servo On)
+开料龙门轴CANopen同步信号过快|C-axis CANopen synchronization signal is too fast
+开料龙门轴CANopen同步信号超时|C-axis CANopen synchronization signal timed out
+开料龙门轴XCAN open命令失效（Servo On）|C-axis XCAN open command is invalid (Servo On)
+开料龙门轴SUNC Period 错误（Servo On）|C axis SYNC Period is in error.（Servo On）
+开料龙门轴CANopen同步失效（Servo Off）|C-axis CANopen synchronization failure (Servo Off)
+开料龙门轴CANopen同步信号太快（Servo Off）|C-axis CANopen synchronization signal is too fast (Servo Off)
+开料龙门轴CANopen同步信号超时（Servo Off）|C-axis CANopen synchronization signal timed out (Servo Off)
+开料龙门轴CANopen IP 命令失效（Servo Off）|C-axis CANopen IP command is invalid (Servo Off)
+开料龙门轴SYNC period错误（Servo Off）|C-axis SYNC period error (Servo Off)
+开料龙门轴分度坐标错误|C-axis indexing coordinate error
+开料龙门轴Servo On时收到NMT Reset 命令|C-axis NMT Reset command is received when Servo On
+开料龙门轴PR 特殊滤波设置太大|C-axis PR special filter is set too large
+开料龙门轴系统故障|C-axis system failure
+归零标志位置未脱离限位|The position marked by zero does not leave the limit
+Follow API异常|Follow API error
+龙门轴发生异常、未Servo on|C-axis error, not Servo on
+刀库轴过电流|T-axis overcurrent
+刀库轴电机匹配错误|T-axis motor mismatch
+刀库轴回生错误|T axis retrogradation error
+刀库轴过速度|T-axis over speed
+刀库轴异常脉波控制命令|Abnormal pulse control command of T-axis
+刀库轴位置检出器异常|T-axis position detector is abnormal
+刀库轴校正异常|T-axis correction error
+刀库轴紧急停止|T-axis emergency stop
+刀库轴反向极限异常|T-axis reverse limit error
+刀库轴正向极限异常|T-axis positive limit error
+刀库轴IGBT过热|T-axis IGBT overheating
+刀库轴记忆体异常|T-axis memory abnormality
+刀库轴检出器输出异常|T-axis detector output is abnormal
+刀库轴串列通讯异常|Serial communication error of T-axis
+刀库轴串列通讯逾时|Serial communication timeout of T-axis
+刀库轴主回路电源异常|Main circuit power supply error of T-axis
+刀库轴预先过载警告|T-axis pre-overload warning
+刀库轴编码器初始磁场错误|Initial magnetic field error of T-axis encoder
+刀库轴编码器内部错误|Internal error of T-axis encoder
+刀库轴编码器内部资料可靠度错误|Internal data reliability error of T-axis encoder
+刀库轴编码器内部重置错误|Internal reset error of T-axis encoder
+刀库轴编码器高电压错误或编码器内部错误|High voltage error or internal error of T-axis encoder
+刀库轴格雷码错误|T-axis gray code error
+刀库轴电机碰撞错误|T-axis motor collision error
+刀库轴电机U、V、W接线错误|T-axis motor U, V, W wiring error
+刀库轴编码器内部通讯异常|Internal communication error of T-axis encoder
+刀库轴全闭环位置控制误差过大|Full closed loop position control error of T-axis is too large
+刀库轴光学尺断线|Optical ruler of T-axis broken
+刀库轴类比速度电压输入过高|T-axis analog speed voltage input is too high
+刀库轴驱动器功能使用警告|T-axis driver function use warning
+刀库轴电子齿轮比设定错误|Electronic gear ratio setting of T-axis is incorrect
+刀库轴绝对位置遗失|Absolute position of T-axis is missing
+刀库轴编码器低电压错误|Low voltage error of T-axis encoder
+刀库轴绝对型位置圈数溢位|Absolute position cycle number of T-axis overflow
+刀库轴温度警告|T-axis temperature warning
+刀库轴绝对型资料I/O传输错误|Absolute data I/O transmission error for T-axis
+刀库轴马达型式错误|T-axis motor type error
+刀库轴绝对值位置未初始化|Absolute value position of T-axis is not initialized
+刀库轴编码器处置未完成警告|T-axis encoder disposal incompletion warning
+刀库轴驱动器输出电流过大|T-axis driver output current is too large
+刀库轴回生异常|T-axis retrogradation error
+刀库轴未接外部回生电阻|T-axis is not connected to external retrogradation resistance
+刀库轴DSP韧体升级|T-axis DSP firmware upgrade
+刀库轴CANopen SDO 接收溢位|T-axis CANopen SDO receives overflow
+刀库轴CANopen PDO 接收溢位|T-axis CANopen PDO receives overflow
+刀库轴CANopen PDO 存取时，Index错误|Index error during T-axis CANopen PDO access
+刀库轴CANopen PDO 存取时，Sub-Index错误|Sub-Index error during T-axis CANopen PDO access
+刀库轴CANopen PDO 存取时，资料Size错误|Data size error when T-axis CANopen PDO is accessed
+刀库轴CANopen PDO 存取时，资料范围错误|Data range error during T-axis CANopen PDO access
+刀库轴CANopen PDO 物件是唯读，不可写入|T-axis CANopen PDO objects are read-only and cannot be written
+刀库轴CANopen PDO 物件，不允许PDO|CANopen PDO object for T-axis, PDO is not allowed
+刀库轴CANopen PDO 物件，Servo On时，不允许写入|CANopen PDO object of T-axis, when Servo On, write is not allowed
+刀库轴由EEPRON读取CANopen PDO物件时发生错误|An error occurred when T axis reads the CANopen PDO object by EEPRON
+刀库轴CANopen PDO物件，写入EEPROM时错误|CANopen PDO object of T-axis, error occurs in writing to EEPROM
+刀库轴CANopen PDO物件，EEPROM的位置超过限制|CANopen PDO object of T-axis, EEPROM location exceeds limit
+刀库轴CANopen PDO物件，EEPROM的CRC计算错误|T axis CANopen PDO object, CRC calculation error of EEPROM
+刀库轴CANopen PDO物件，写入密码错误|CANopen PDO object of T-axis, password writing error
+刀库轴心跳监控或节点保护功能错误（Servo On）|T axis heartbeat monitoring or Node protection function error（Servo On）
+刀库轴心跳监控或节点保护功能错误（Servo Off）|T-axis heartbeat monitoring or node protection function error (Servo Off)
+刀库轴CAN Bus硬体异常（警告）|T-axis CAN Bus hardware error (warning)
+刀库轴CAN Bus硬体异常（Bus-off）|T-axis CAN Bus hardware error (Bus-off)
+刀库轴CANNopen资料初始错误|Initial error of T-axis CANNopen data
+刀库轴PR 命令 Type 8 指令来源组超出范围|T-axis PR command Type 8 instruction source group is out of range
+刀库轴PR 命令 Type 8 指令来源参数号码超出范围|T-axis PR command Type 8 instruction source parameter number is out of range
+刀库轴PR 命令 Type 8 指令参数设定错误|T-axis PR command Type 8 instruction parameter setting error
+刀库轴写入参数：唯读|T-axis write parameter: read only
+刀库轴写入参数：参数锁定|T-axis write parameter: parameter lock
+刀库轴PR 命令 Type 8指令设定来源监视项目代码超出范围|T-axis PR command Type 8 instruction setting source monitoring item code is out of range
+刀库轴PR 命令异常|T-axis PR command error
+刀库轴分度坐标未定义|T-axis indexing coordinates are undefined
+刀库轴软体正极限|T-axis software positive limit
+刀库轴软体负极限|T-axis software negative limit
+刀库轴计数器溢位|T-axis counter overflow
+刀库轴Servo OFF异常|T-axis Servo Off error
+刀库轴CANopen同步失效（Servo On）|T-axis CANopen synchronization failure (Servo On)
+刀库轴CANopen同步信号过快|T-axis CANopen synchronization signal is too fast
+刀库轴CANopen同步信号超时|T-axis CANopen synchronization signal timed out
+刀库轴XCAN open命令失效（Servo On）|T-axis XCAN open command is invalid (Servo On)
+刀库轴SUNC Period 错误（Servo On）|T-axis SUNC Period error (Servo On)
+刀库轴CANopen同步失效（Servo Off）|T-axis CANopen synchronization failure (Servo Off)
+刀库轴CANopen同步信号太快（Servo Off）|T-axis CANopen synchronization signal is too fast (Servo Off)
+刀库轴CANopen同步信号超时（Servo Off）|T-axis CANopen synchronization signal timed out (Servo Off)
+刀库轴CANopen IP 命令失效（Servo Off）|T-axis CANopen IP command is invalid (Servo Off)
+刀库轴SYNC period错误（Servo Off）|T-axis SYNC period error (Servo Off)
+刀库轴分度坐标错误|T-axis indexing coordinate error
+刀库轴Servo On时收到NMT Reset 命令|T-axis NMT Reset command is received when Servo On
+刀库轴PR 特殊滤波设置太大|T-axis PR special filter is set too large
+刀库轴系统故障|T-axis system failure
+排钻预热提醒|Remind of Preheating Drill Head
+上料机急停报警|Loader EMG Alarm
+下料机急停报警|Unloader EMG Alarm
+安全门未正确关闭报警|Safty Door Is Not Properly Closed
+外罩急停|Cover EMG Stop
+推料下降位置超过限位|Pusher Falling Position Exceeds Limit
+自动对刀程序进行中，轴无法停转|Spindle can't stop while auto tool setting program is running
+放刀过程中刀位有刀报警|Tool Position Busy during Tool Placement
+取刀过程中刀位无刀报警|Tool Position Empty during Tool Placement
+推料下超限制|Pusher Falling Position Exceeds Limit
+排钻在下干涉报警|Interference occurs while drill head is falling down
+台面破真空异常|Vacuum Breaking Error for Table
+夹刀异常|Clamp Error
+松刀异常|Unclamp Error
+破真空异常|Vacuum Breaking Error
+OUt1 逆变单元U相保护|OUt1 Inverter Unit U Phase Protection
+OUt2 逆变单元V相保护|OUt2 Inverter Unit V Phase Protection
+OUt3 逆变单元W相保护|OUt3 Inverter Unit W Phase Protection
+OV1 加速过电压|OV1 Acceleration Overvoltage
+OV2 减速过电压|OV2 Deceleration Overvoltage
+OV3 恒速过电压|OV3 Constant Speed Overvoltage
+OC1 加速过电流|OC1 Acceleration Overcurrent
+OC2 减速过电流|OC2 Deceleration Overcurrent
+OC3 恒速过电流|OC3 Constant Speed Overcurrent
+UV 母线欠电压|UV Bus Undervoltage
+OL1 电机过载|OL1 Motor Overload
+OL2 变频器过载|The OL2 Converter Overload
+SPI 输入侧缺项|SPI Missing Term on Input Side
+SPO 输出侧缺项|SPO Missing Term on Output Side
+OH1 整流模块过热|OH1 Rectifier Module Overheating
+OH2 逆变模块过热故障|OH2 Inverter Module Overheating Fault
+EF 外部故障|EF External Fault
+CE 485通讯故障|CE 485 Communication Failure
+ItE 电流检测故障|ItE Current Detection Fault
+tE 电机自学习故障|tE Motor Self-Learning Fault
+EEP EEPROM操作故障|EEP EEPROM Operation Failure
+PID 反馈断线故障|PID Feedback Disconnection Fault
+bCE 制动单元故障|bCE Brake Unit Fault
+END 运行时间到达|END Running Time Reaches
+OL3 电子过载故障|OL3 Electronic Overload Failure
+PCE 键盘通讯错误|PCE Keyboard Communication Error
+UPE 参数上传错误|UPE Parameter Upload Error
+DNE 参数下载错误|DNE Parameter Download Error
+ETH1 对地短路故障1|ETH1 Ground Short Circuit Fault 1
+ETH2 对地短路故障2|ETH2 Ground Short Circuit Fault 2
+LL 电子欠载故障|LL Electron Underload Fault
+面板急停按钮|Panel EMG
+大主轴1降|Spindle 1 down
+大X侧急停按钮|Left EMG
+大主轴2降|Spindle 2 down
+小X侧急停按钮|Right EMG
+小主轴1降|Spindle 3 down
+启动按钮|Start
+小主轴2降|Spindle 4 down
+暂停按钮|Pause
+真空泵启动|Vacuum Pump
+复位按钮|Reset
+脚踏开关|Pedal
+真空破坏|Vacuum Break
+工件原点按钮|Origin
+报警异常灯|Alarm Light
+上料机到位|Loader in Place
+程式结束灯|Finish Light
+下料机暂停|Unloader Pause
+程式运行灯|Running Light
+推料上到位|Pusher up-in-Place
+推料下到位|Pusher down-in-Place
+抓料上到位|Loader up-in-Place
+变频器1电机热过载|Inverter 1 Motor Thermal Overload
+抓料真空吸附|Loader Vac-Sorb
+变频器2电机热过载|Inverter 2 Motor Thermal Overload
+抓料真空破坏|Loader Vacuum Break
+下料机启动|Unloader Start
+Z轴配重气缸|Z-Axis Weight Cylinder
+大主轴1启动|Spindle 1 Start
+大主轴1上到位|Spindle 1 up in Place
+大主轴2启动|Spindle 2 Start
+大主轴1下到位|Spindle 1 down in Place
+小主轴1启动|Spindle 3 Start
+大主轴2上到位|Spindle 2 up in Place
+小主轴2启动|Spindle 4 Start
+大主轴2下到位|Spindle 2 down in Place
+对刀仪吹气|Tool Setting Gauge Blow
+小主轴1上到位|Spindle 3 up in Place
+Y定位杆升|Y Locating Rod up
+小主轴1下到位|Spindle 3 down in Place
+X定位杆升|X Locating Rod up
+小主轴2上到位|Spindle 4 up in Place
+小主轴2下到位|Spindle 4 down in Place
+大主轴1启动OK|Spindle 1 Start OK
+大主轴2启动OK|Spindle 2 Start OK
+小主轴1启动OK|Spindle 3 Start OK
+上下料急停|Loadling/Unloading EMG
+小主轴2启动OK|Spindle 4 Start OK
+禁用|Disable
+X侧靠前推到位|X Side Aligner Forward in Place
+Y侧靠后退到位|Y Side Aligner Backward in Place
+气压OK|Air Pressure OK
+真空压力OK|Vacuum Pressure OK
+Y定位气缸下到位|Y Positioning Cylinder down in Place
+X定位气缸下到位|X Positioning Cylinder down in Place
+贴标到位|Labeler in Place
+上料机急停|Loader EMG
+下料机急停|Unloader EMG
+X侧靠后退到位|X Side Aligner Backward in Place
+N启动按钮|N Start Button
+N真空总控|N Vacuum
+M真空压力OK|M Vacuum Pressure OK
+N真空破坏|N Vacuum Break
+M启动按钮|M Start
+N启动指示灯|N Start Light
+推料除尘退回|Pusher Dedusting Return
+推料除尘|Pusher Dedusting
+变频器1 主轴热过载|Inverter 1 Spindle Thermal Overload
+变频器2 主轴热过载|Inverter 2 Spindle Thermal Overload
+M真空破坏|M Vacuum Break
+M启动指示灯|M Start Light
+N定位杆Y升|N Locating Rod Y up
+M定位杆Y升|M Locating Rod Y up
+真空泵2启动|Vacuum Pump 2
+N定位杆X升|N Locating Rod X up
+M定位杆X升|M Locating Rod X up
+N真空压力OK|M Vacuum Pressure OK
+N定位气缸Y下到位|N Locating Cylinder Y down in Place
+M定位气缸Y下到位|M Locating Cylinder Y down in Place
+N定位气缸X下到位|N Locating Cylinder X down in Place
+M定位气缸X下到位|M Locating Cylinder X down in Place
+N紧急停止按钮|N EMG
+M紧急停止按钮|M EMG
+N定位气缸按钮|N Locating Cylinder
+M定位气缸按钮|M Locating Cylinder
+变频器1主轴热过载|Inverter 1 Spindle Thermal Overload
+变频器2主轴热过载|Inverter 2 Spindle Thermal Overload
+主轴夹刀|Spindle Clamp
+主轴松刀|Spindle Unclamp
+主轴冷却|Spindle Cool
+主轴吹气|Spindle Blow
+毛刷降|Brush down
+主轴过载|Spindle Overload
+吸尘罩上到位|Dust Hood in Place
+主轴松刀信号|Spindle Unclamp Signal
+主轴夹刀信号|Spindle Clamp Signal
+安全门锁开关|Safety Door Lock Switch
+主轴风扇报警信号|Spindle Fan Alarm Signal
+主轴松刀按钮|Spindle Unclamp
+外罩急停按钮|Cover EMG
+左导向1下到位|Left Guide 1 down in Place
+左导向2下到位|Left Guide 2 down in Place
+刀柄检测信号|Shank Detection Signal
+刀库正转按钮|Tool Changer Forward
+刀库反转按钮|Tool Changer Backward
+刀库推出到位|Tool Forward in Place
+刀库退回到位|Tool Backward in Place
+安全门锁信号|Safety Door Signal
+右导向1下到位|Right Guide 1 down in Place
+右导向2下到位|Right Guide 2 down in Place
+排钻停转OK|Drill Head Stop OK
+排钻上到位|Drill Head up in Place
+排钻下到位|Drill Head down in Place
+排钻下|Drill Head down
+排钻吸尘|Drill Head Dust Suction
+Y小板侧推上到位|Y Small Panel Side Aligner up in Place
+Y小板侧推下到位|Y Small Panel Side Aligner down in Place
+Y小板侧推退回到位|Y Small Panel Side Aligner back in Place
+小板侧推下降|Small Panel Pusher down
+大板抓料吸附|Big Panel Loader Suction
+大板真空吸附破坏|Big Panel Vac-Sorb Break
+右导向3下到位|Right Guide 3 down in Place
+刀库推出信号|Tool Changer Forward Signal
+左定位杆升|Left Positioning Rod up
+右定位杆升|Right Positioning Rod up
+左定位气缸下到位|Left Positioning Cylinder down in Place
+右定位气缸下到位|Right Positioning Cylinder down in Place
+伺服电源|Servo Power
+吸尘罩降|Dust Hood down
+Z轴刹车|Z-Axis Brake
+Y定位气缸升|Y Positioning Cylinder up in Place
+X定位气缸升|X Positioning Cylinder up in Place
+左导向下到位|Left Guide down in Place
+右导向下到位|Right Guide down in Place
+上料板到位|Feeding Plate in Place
