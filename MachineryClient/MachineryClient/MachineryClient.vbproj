@@ -47,6 +47,21 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SharpGL, Version=2.4.1.2, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.2.4.1.2\lib\net40-client\SharpGL.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph">
+      <HintPath>..\..\..\..\test_work\KDTWoodSystem\packages\SharpGL.SceneGraph.2.4.1.2\lib\net40\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=2.4.1.2, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.WinForms.2.4.1.2\lib\net40\SharpGL.WinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SharpGL.WPF, Version=2.4.1.2, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.WPF.2.4.1.2\lib\net40\SharpGL.WPF.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -135,10 +150,22 @@
     <Compile Include="WriInterface\Common.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="WriInterface\Coordinate.Designer.vb">
+      <DependentUpon>Coordinate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WriInterface\Coordinate.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="WriInterface\ProgramList.Designer.vb">
       <DependentUpon>ProgramList.vb</DependentUpon>
     </Compile>
     <Compile Include="WriInterface\ProgramList.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WriInterface\Synoptic.Designer.vb">
+      <DependentUpon>Synoptic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WriInterface\Synoptic.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="WriInterface\ToolBar.Designer.vb">
@@ -165,10 +192,22 @@
     <Compile Include="WriInterface\Verification.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="WriInterface\WorkPlan.Designer.vb">
+      <DependentUpon>WorkPlan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WriInterface\WorkPlan.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="WriInterface\WriMessage.Designer.vb">
       <DependentUpon>WriMessage.vb</DependentUpon>
     </Compile>
     <Compile Include="WriInterface\WriMessage.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WriInterface\wriNull.Designer.vb">
+      <DependentUpon>wriNull.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WriInterface\wriNull.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="WriInterface\WriPaste.Designer.vb">
@@ -181,6 +220,12 @@
       <DependentUpon>WriPiant.vb</DependentUpon>
     </Compile>
     <Compile Include="WriInterface\WriPiant.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WriInterface\WriShowState.Designer.vb">
+      <DependentUpon>WriShowState.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WriInterface\WriShowState.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="WriInterface\WriZoom.Designer.vb">
@@ -224,8 +269,14 @@
     <EmbeddedResource Include="WriInterface\Common.resx">
       <DependentUpon>Common.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WriInterface\Coordinate.resx">
+      <DependentUpon>Coordinate.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\ProgramList.resx">
       <DependentUpon>ProgramList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WriInterface\Synoptic.resx">
+      <DependentUpon>Synoptic.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\ToolBar.resx">
       <DependentUpon>ToolBar.vb</DependentUpon>
@@ -239,14 +290,23 @@
     <EmbeddedResource Include="WriInterface\Verification.resx">
       <DependentUpon>Verification.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WriInterface\WorkPlan.resx">
+      <DependentUpon>WorkPlan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\WriMessage.resx">
       <DependentUpon>WriMessage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WriInterface\wriNull.resx">
+      <DependentUpon>wriNull.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\WriPaste.resx">
       <DependentUpon>WriPaste.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\WriPiant.resx">
       <DependentUpon>WriPiant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WriInterface\WriShowState.resx">
+      <DependentUpon>WriShowState.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WriInterface\WriZoom.resx">
       <DependentUpon>WriZoom.vb</DependentUpon>
@@ -265,9 +325,14 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SharpGL.ico" />
+    <Content Include="SharpGL.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
